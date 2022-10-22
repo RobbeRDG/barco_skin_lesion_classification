@@ -1,0 +1,1022 @@
+,maibi_id,dx,dx_type,age,sex,localization,dataset
+0,maibi_derma_004791,mel,histo,80.0,female,face,vidir_modern
+1,maibi_derma_004792,nv,follow_up,40.0,female,back,vidir_molemax
+2,maibi_derma_004793,nv,histo,40.0,female,back,vidir_modern
+3,maibi_derma_004794,nv,consensus,65.0,male,back,vidir_modern
+4,maibi_derma_004795,nv,follow_up,50.0,male,upper extremity,vidir_molemax
+5,maibi_derma_004796,bkl,histo,45.0,male,face,vidir_modern
+6,maibi_derma_004797,nv,follow_up,35.0,female,lower extremity,vidir_molemax
+7,maibi_derma_004798,nv,histo,85.0,female,unknown,vidir_modern
+8,maibi_derma_004799,nv,histo,50.0,female,back,vidir_modern
+9,maibi_derma_004800,mel,histo,70.0,female,upper extremity,rosendahl
+10,maibi_derma_004801,nv,follow_up,55.0,female,genital,vidir_molemax
+11,maibi_derma_004802,nv,follow_up,70.0,male,trunk,vidir_molemax
+12,maibi_derma_004803,nv,consensus,55.0,female,trunk,vidir_modern
+13,maibi_derma_004804,nv,histo,70.0,male,chest,vidir_modern
+14,maibi_derma_004805,nv,histo,85.0,male,upper extremity,rosendahl
+15,maibi_derma_004806,vasc,consensus,70.0,female,face,vidir_modern
+16,maibi_derma_004807,nv,follow_up,50.0,female,trunk,vidir_molemax
+17,maibi_derma_004808,nv,follow_up,65.0,male,lower extremity,vidir_molemax
+18,maibi_derma_004809,nv,follow_up,55.0,male,abdomen,vidir_molemax
+19,maibi_derma_004810,mel,histo,65.0,male,back,rosendahl
+20,maibi_derma_004811,nv,histo,30.0,male,scalp,rosendahl
+21,maibi_derma_004812,akiec,histo,70.0,male,scalp,vidir_modern
+22,maibi_derma_004813,nv,consensus,55.0,male,unknown,vidir_modern
+23,maibi_derma_004814,nv,follow_up,40.0,male,trunk,vidir_molemax
+24,maibi_derma_004815,nv,follow_up,55.0,female,upper extremity,vidir_molemax
+25,maibi_derma_004816,nv,follow_up,40.0,male,upper extremity,vidir_molemax
+26,maibi_derma_004817,nv,histo,45.0,male,foot,vidir_modern
+27,maibi_derma_004818,nv,follow_up,50.0,male,lower extremity,vidir_molemax
+28,maibi_derma_004819,nv,consensus,,unknown,unknown,vidir_modern
+29,maibi_derma_004820,nv,follow_up,80.0,male,back,vidir_molemax
+30,maibi_derma_004821,bkl,histo,75.0,male,lower extremity,rosendahl
+31,maibi_derma_004822,nv,histo,70.0,male,back,rosendahl
+32,maibi_derma_004823,mel,histo,40.0,female,lower extremity,vidir_modern
+33,maibi_derma_004824,mel,histo,55.0,male,chest,rosendahl
+34,maibi_derma_004825,nv,histo,65.0,female,back,vidir_modern
+35,maibi_derma_004826,nv,follow_up,45.0,male,lower extremity,vidir_molemax
+36,maibi_derma_004827,nv,histo,45.0,male,abdomen,vidir_modern
+37,maibi_derma_004828,nv,histo,20.0,female,lower extremity,vienna_dias
+38,maibi_derma_004829,nv,histo,45.0,male,abdomen,vidir_modern
+39,maibi_derma_004830,mel,histo,70.0,female,neck,vidir_modern
+40,maibi_derma_004831,bkl,histo,65.0,female,upper extremity,rosendahl
+41,maibi_derma_004832,nv,follow_up,80.0,male,upper extremity,vidir_molemax
+42,maibi_derma_004833,bkl,consensus,70.0,female,back,vidir_molemax
+43,maibi_derma_004834,nv,histo,75.0,male,ear,rosendahl
+44,maibi_derma_004835,nv,histo,40.0,male,back,rosendahl
+45,maibi_derma_004836,nv,follow_up,45.0,female,back,vidir_molemax
+46,maibi_derma_004837,nv,histo,40.0,male,upper extremity,vidir_modern
+47,maibi_derma_004838,nv,histo,45.0,male,lower extremity,rosendahl
+48,maibi_derma_004839,nv,follow_up,50.0,female,foot,vidir_molemax
+49,maibi_derma_004840,nv,follow_up,50.0,female,trunk,vidir_molemax
+50,maibi_derma_004841,nv,follow_up,45.0,male,lower extremity,vidir_molemax
+51,maibi_derma_004842,bcc,histo,75.0,male,back,rosendahl
+52,maibi_derma_004843,nv,histo,65.0,male,back,rosendahl
+53,maibi_derma_004844,nv,follow_up,45.0,female,trunk,vidir_molemax
+54,maibi_derma_004845,nv,follow_up,50.0,female,lower extremity,vidir_molemax
+55,maibi_derma_004846,nv,follow_up,35.0,female,back,vidir_molemax
+56,maibi_derma_004847,mel,histo,30.0,female,lower extremity,vidir_modern
+57,maibi_derma_004848,nv,histo,70.0,male,abdomen,vidir_modern
+58,maibi_derma_004849,nv,histo,45.0,female,back,vidir_modern
+59,maibi_derma_004850,nv,follow_up,55.0,female,abdomen,vidir_molemax
+60,maibi_derma_004851,nv,follow_up,70.0,female,trunk,vidir_molemax
+61,maibi_derma_004852,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+62,maibi_derma_004853,nv,histo,40.0,female,back,vidir_modern
+63,maibi_derma_004854,bcc,histo,80.0,male,back,vidir_modern
+64,maibi_derma_004855,nv,follow_up,70.0,male,trunk,vidir_molemax
+65,maibi_derma_004856,nv,histo,30.0,female,upper extremity,rosendahl
+66,maibi_derma_004857,bcc,histo,85.0,female,face,vidir_modern
+67,maibi_derma_004858,mel,histo,85.0,male,back,vidir_molemax
+68,maibi_derma_004859,mel,histo,60.0,male,lower extremity,vidir_modern
+69,maibi_derma_004860,vasc,histo,80.0,male,lower extremity,vidir_modern
+70,maibi_derma_004861,nv,follow_up,65.0,male,lower extremity,vidir_molemax
+71,maibi_derma_004862,nv,histo,55.0,male,scalp,rosendahl
+72,maibi_derma_004863,nv,follow_up,35.0,male,trunk,vidir_molemax
+73,maibi_derma_004864,nv,histo,45.0,male,back,rosendahl
+74,maibi_derma_004865,bkl,histo,70.0,female,abdomen,vidir_modern
+75,maibi_derma_004866,nv,follow_up,55.0,male,abdomen,vidir_molemax
+76,maibi_derma_004867,nv,follow_up,45.0,male,back,vidir_molemax
+77,maibi_derma_004868,nv,follow_up,40.0,female,trunk,vidir_molemax
+78,maibi_derma_004869,nv,histo,70.0,female,upper extremity,vidir_modern
+79,maibi_derma_004870,mel,histo,80.0,male,back,vidir_modern
+80,maibi_derma_004871,mel,histo,55.0,male,face,rosendahl
+81,maibi_derma_004872,nv,consensus,65.0,male,upper extremity,vidir_modern
+82,maibi_derma_004873,nv,follow_up,50.0,female,foot,vidir_molemax
+83,maibi_derma_004874,nv,follow_up,75.0,male,back,vidir_molemax
+84,maibi_derma_004875,bkl,confocal,60.0,female,face,vidir_modern
+85,maibi_derma_004876,nv,histo,65.0,male,lower extremity,rosendahl
+86,maibi_derma_004877,nv,histo,50.0,female,lower extremity,vidir_modern
+87,maibi_derma_004878,nv,follow_up,45.0,male,upper extremity,vidir_molemax
+88,maibi_derma_004879,nv,histo,30.0,female,upper extremity,rosendahl
+89,maibi_derma_004880,nv,histo,35.0,female,back,vidir_modern
+90,maibi_derma_004881,bkl,histo,60.0,female,face,vidir_modern
+91,maibi_derma_004882,nv,follow_up,45.0,male,lower extremity,vidir_molemax
+92,maibi_derma_004883,nv,histo,40.0,female,back,vidir_modern
+93,maibi_derma_004884,bcc,histo,80.0,female,back,vidir_modern
+94,maibi_derma_004885,bcc,histo,85.0,female,face,rosendahl
+95,maibi_derma_004886,mel,histo,70.0,male,scalp,vidir_modern
+96,maibi_derma_004887,nv,follow_up,40.0,male,trunk,vidir_molemax
+97,maibi_derma_004888,nv,histo,55.0,male,chest,vidir_modern
+98,maibi_derma_004889,nv,consensus,75.0,male,back,vidir_modern
+99,maibi_derma_004890,nv,follow_up,35.0,male,back,vidir_molemax
+100,maibi_derma_004891,mel,histo,40.0,male,lower extremity,vidir_modern
+101,maibi_derma_004892,mel,histo,65.0,male,back,rosendahl
+102,maibi_derma_004893,nv,consensus,30.0,male,back,vidir_modern
+103,maibi_derma_004894,nv,histo,20.0,male,lower extremity,vidir_modern
+104,maibi_derma_004895,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+105,maibi_derma_004896,akiec,histo,60.0,female,face,vidir_modern
+106,maibi_derma_004897,nv,follow_up,35.0,male,lower extremity,vidir_molemax
+107,maibi_derma_004898,nv,follow_up,45.0,male,trunk,vidir_molemax
+108,maibi_derma_004899,nv,follow_up,45.0,male,back,vidir_molemax
+109,maibi_derma_004900,nv,follow_up,50.0,female,back,vidir_molemax
+110,maibi_derma_004901,mel,histo,85.0,male,upper extremity,vidir_modern
+111,maibi_derma_004902,nv,follow_up,65.0,female,lower extremity,vidir_molemax
+112,maibi_derma_004903,vasc,consensus,50.0,female,abdomen,vidir_molemax
+113,maibi_derma_004904,nv,follow_up,50.0,male,abdomen,vidir_molemax
+114,maibi_derma_004905,bkl,histo,55.0,female,lower extremity,rosendahl
+115,maibi_derma_004906,nv,histo,45.0,female,lower extremity,vidir_modern
+116,maibi_derma_004907,bcc,histo,60.0,female,back,rosendahl
+117,maibi_derma_004908,nv,follow_up,65.0,male,trunk,vidir_molemax
+118,maibi_derma_004909,bcc,histo,75.0,male,upper extremity,rosendahl
+119,maibi_derma_004910,nv,consensus,40.0,female,lower extremity,vidir_modern
+120,maibi_derma_004911,bkl,histo,80.0,male,upper extremity,rosendahl
+121,maibi_derma_004912,bcc,histo,70.0,male,lower extremity,vidir_modern
+122,maibi_derma_004913,nv,follow_up,75.0,female,lower extremity,vidir_molemax
+123,maibi_derma_004914,nv,follow_up,55.0,female,lower extremity,vidir_molemax
+124,maibi_derma_004915,nv,histo,40.0,female,genital,rosendahl
+125,maibi_derma_004916,akiec,histo,65.0,female,face,rosendahl
+126,maibi_derma_004917,nv,histo,40.0,male,abdomen,rosendahl
+127,maibi_derma_004918,nv,consensus,25.0,male,abdomen,vidir_modern
+128,maibi_derma_004919,nv,histo,40.0,male,abdomen,rosendahl
+129,maibi_derma_004920,nv,histo,30.0,male,lower extremity,vidir_modern
+130,maibi_derma_004921,nv,follow_up,55.0,female,trunk,vidir_molemax
+131,maibi_derma_004922,nv,histo,50.0,male,face,rosendahl
+132,maibi_derma_004923,nv,follow_up,65.0,male,back,vidir_molemax
+133,maibi_derma_004924,bkl,histo,45.0,female,face,rosendahl
+134,maibi_derma_004925,nv,follow_up,50.0,male,lower extremity,vidir_molemax
+135,maibi_derma_004926,bcc,histo,45.0,male,lower extremity,rosendahl
+136,maibi_derma_004927,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+137,maibi_derma_004928,nv,consensus,20.0,male,back,vidir_modern
+138,maibi_derma_004929,bkl,histo,50.0,male,scalp,rosendahl
+139,maibi_derma_004930,nv,follow_up,50.0,female,lower extremity,vidir_molemax
+140,maibi_derma_004931,vasc,consensus,75.0,male,back,vidir_molemax
+141,maibi_derma_004932,nv,follow_up,75.0,female,lower extremity,vidir_molemax
+142,maibi_derma_004933,nv,follow_up,55.0,female,abdomen,vidir_molemax
+143,maibi_derma_004934,nv,follow_up,45.0,female,trunk,vidir_molemax
+144,maibi_derma_004935,nv,follow_up,35.0,male,upper extremity,vidir_molemax
+145,maibi_derma_004936,nv,follow_up,45.0,female,trunk,vidir_molemax
+146,maibi_derma_004937,nv,histo,35.0,male,face,vidir_modern
+147,maibi_derma_004938,nv,follow_up,60.0,male,genital,vidir_molemax
+148,maibi_derma_004939,nv,follow_up,45.0,female,trunk,vidir_molemax
+149,maibi_derma_004940,akiec,histo,80.0,male,lower extremity,rosendahl
+150,maibi_derma_004941,nv,histo,40.0,male,lower extremity,vidir_modern
+151,maibi_derma_004942,vasc,consensus,55.0,male,trunk,vidir_molemax
+152,maibi_derma_004943,bkl,histo,70.0,female,upper extremity,rosendahl
+153,maibi_derma_004944,nv,histo,40.0,female,foot,rosendahl
+154,maibi_derma_004945,bkl,histo,45.0,female,lower extremity,rosendahl
+155,maibi_derma_004946,bcc,histo,50.0,female,abdomen,vidir_modern
+156,maibi_derma_004947,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+157,maibi_derma_004948,nv,follow_up,45.0,female,abdomen,vidir_molemax
+158,maibi_derma_004949,nv,follow_up,50.0,female,lower extremity,vidir_molemax
+159,maibi_derma_004950,nv,histo,55.0,female,upper extremity,rosendahl
+160,maibi_derma_004951,nv,follow_up,45.0,male,upper extremity,vidir_molemax
+161,maibi_derma_004952,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+162,maibi_derma_004953,vasc,histo,10.0,male,trunk,vidir_modern
+163,maibi_derma_004954,nv,follow_up,45.0,female,trunk,vidir_molemax
+164,maibi_derma_004955,nv,follow_up,75.0,female,abdomen,vidir_molemax
+165,maibi_derma_004956,nv,follow_up,50.0,male,lower extremity,vidir_molemax
+166,maibi_derma_004957,nv,follow_up,40.0,female,trunk,vidir_molemax
+167,maibi_derma_004958,nv,histo,60.0,male,foot,rosendahl
+168,maibi_derma_004959,bkl,histo,50.0,female,lower extremity,vidir_molemax
+169,maibi_derma_004960,bcc,histo,80.0,male,back,rosendahl
+170,maibi_derma_004961,nv,follow_up,35.0,female,trunk,vidir_molemax
+171,maibi_derma_004962,nv,follow_up,50.0,male,back,vidir_molemax
+172,maibi_derma_004963,nv,follow_up,35.0,male,lower extremity,vidir_molemax
+173,maibi_derma_004964,nv,follow_up,50.0,female,back,vidir_molemax
+174,maibi_derma_004965,nv,histo,60.0,male,lower extremity,vidir_modern
+175,maibi_derma_004966,nv,consensus,5.0,male,trunk,vidir_modern
+176,maibi_derma_004967,nv,histo,75.0,male,lower extremity,vidir_modern
+177,maibi_derma_004968,df,histo,30.0,male,upper extremity,rosendahl
+178,maibi_derma_004969,nv,histo,65.0,male,foot,rosendahl
+179,maibi_derma_004970,akiec,histo,70.0,female,face,rosendahl
+180,maibi_derma_004971,nv,follow_up,50.0,female,upper extremity,vidir_molemax
+181,maibi_derma_004972,bcc,histo,85.0,male,back,rosendahl
+182,maibi_derma_004973,nv,follow_up,45.0,female,back,vidir_molemax
+183,maibi_derma_004974,nv,follow_up,40.0,female,trunk,vidir_molemax
+184,maibi_derma_004975,nv,histo,30.0,female,chest,vidir_modern
+185,maibi_derma_004976,nv,follow_up,45.0,female,upper extremity,vidir_molemax
+186,maibi_derma_004977,nv,follow_up,50.0,female,trunk,vidir_molemax
+187,maibi_derma_004978,nv,histo,20.0,female,lower extremity,vidir_modern
+188,maibi_derma_004979,bkl,confocal,70.0,male,face,vidir_modern
+189,maibi_derma_004980,mel,histo,55.0,female,foot,rosendahl
+190,maibi_derma_004981,bkl,confocal,80.0,male,face,vidir_modern
+191,maibi_derma_004982,mel,histo,65.0,female,lower extremity,vidir_modern
+192,maibi_derma_004983,nv,histo,50.0,female,back,rosendahl
+193,maibi_derma_004984,nv,follow_up,55.0,male,upper extremity,vidir_molemax
+194,maibi_derma_004985,nv,follow_up,65.0,male,upper extremity,vidir_molemax
+195,maibi_derma_004986,nv,histo,65.0,male,back,rosendahl
+196,maibi_derma_004987,nv,follow_up,40.0,female,lower extremity,vidir_molemax
+197,maibi_derma_004988,nv,follow_up,55.0,male,abdomen,vidir_molemax
+198,maibi_derma_004989,bcc,histo,60.0,male,scalp,vidir_modern
+199,maibi_derma_004990,nv,follow_up,45.0,male,back,vidir_molemax
+200,maibi_derma_004991,nv,histo,30.0,female,back,vidir_modern
+201,maibi_derma_004992,bkl,histo,75.0,female,face,rosendahl
+202,maibi_derma_004993,nv,consensus,60.0,female,abdomen,vidir_modern
+203,maibi_derma_004994,nv,histo,65.0,male,lower extremity,vidir_modern
+204,maibi_derma_004995,nv,follow_up,55.0,male,trunk,vidir_molemax
+205,maibi_derma_004996,nv,follow_up,45.0,male,upper extremity,vidir_molemax
+206,maibi_derma_004997,nv,histo,35.0,female,abdomen,vienna_dias
+207,maibi_derma_004998,nv,follow_up,60.0,male,abdomen,vidir_molemax
+208,maibi_derma_004999,mel,histo,65.0,male,back,rosendahl
+209,maibi_derma_005000,nv,follow_up,35.0,female,lower extremity,vidir_molemax
+210,maibi_derma_005001,nv,histo,25.0,female,genital,vidir_modern
+211,maibi_derma_005002,nv,histo,45.0,female,abdomen,rosendahl
+212,maibi_derma_005003,nv,follow_up,55.0,male,trunk,vidir_molemax
+213,maibi_derma_005004,nv,follow_up,45.0,male,abdomen,vidir_molemax
+214,maibi_derma_005005,bkl,consensus,45.0,female,trunk,vidir_molemax
+215,maibi_derma_005006,akiec,histo,70.0,male,lower extremity,rosendahl
+216,maibi_derma_005007,nv,histo,55.0,male,back,vidir_modern
+217,maibi_derma_005008,bkl,consensus,65.0,male,face,vidir_modern
+218,maibi_derma_005009,nv,histo,20.0,male,back,rosendahl
+219,maibi_derma_005010,nv,follow_up,30.0,female,lower extremity,vidir_molemax
+220,maibi_derma_005011,nv,follow_up,55.0,female,lower extremity,vidir_molemax
+221,maibi_derma_005012,nv,follow_up,50.0,male,trunk,vidir_molemax
+222,maibi_derma_005013,nv,follow_up,20.0,male,trunk,vidir_molemax
+223,maibi_derma_005014,nv,histo,45.0,male,abdomen,vidir_modern
+224,maibi_derma_005015,nv,follow_up,45.0,female,hand,vidir_molemax
+225,maibi_derma_005016,nv,consensus,70.0,male,trunk,vidir_modern
+226,maibi_derma_005017,nv,follow_up,70.0,female,lower extremity,vidir_molemax
+227,maibi_derma_005018,nv,follow_up,60.0,male,trunk,vidir_molemax
+228,maibi_derma_005019,nv,follow_up,55.0,male,trunk,vidir_molemax
+229,maibi_derma_005020,df,histo,40.0,male,lower extremity,rosendahl
+230,maibi_derma_005021,bcc,histo,80.0,female,neck,rosendahl
+231,maibi_derma_005022,bkl,histo,75.0,female,face,vidir_modern
+232,maibi_derma_005023,nv,histo,35.0,female,lower extremity,vidir_modern
+233,maibi_derma_005024,nv,follow_up,20.0,male,trunk,vidir_molemax
+234,maibi_derma_005025,nv,consensus,65.0,male,abdomen,vidir_modern
+235,maibi_derma_005026,nv,follow_up,30.0,female,lower extremity,vidir_molemax
+236,maibi_derma_005027,nv,follow_up,55.0,male,abdomen,vidir_molemax
+237,maibi_derma_005028,nv,follow_up,35.0,female,back,vidir_molemax
+238,maibi_derma_005029,bcc,histo,85.0,male,back,rosendahl
+239,maibi_derma_005030,mel,histo,60.0,male,upper extremity,vidir_modern
+240,maibi_derma_005031,df,consensus,45.0,male,abdomen,vidir_modern
+241,maibi_derma_005032,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+242,maibi_derma_005033,nv,follow_up,35.0,female,genital,vidir_molemax
+243,maibi_derma_005034,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+244,maibi_derma_005035,nv,histo,25.0,male,back,rosendahl
+245,maibi_derma_005036,nv,follow_up,45.0,female,trunk,vidir_molemax
+246,maibi_derma_005037,bkl,consensus,55.0,female,face,vidir_modern
+247,maibi_derma_005038,nv,follow_up,45.0,male,lower extremity,vidir_molemax
+248,maibi_derma_005039,nv,follow_up,40.0,female,lower extremity,vidir_molemax
+249,maibi_derma_005040,bkl,histo,55.0,female,chest,rosendahl
+250,maibi_derma_005041,nv,consensus,0.0,male,foot,vidir_modern
+251,maibi_derma_005042,nv,histo,35.0,male,trunk,vidir_modern
+252,maibi_derma_005043,nv,histo,40.0,female,lower extremity,rosendahl
+253,maibi_derma_005044,nv,follow_up,50.0,female,trunk,vidir_molemax
+254,maibi_derma_005045,nv,histo,40.0,male,foot,vienna_dias
+255,maibi_derma_005046,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+256,maibi_derma_005047,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+257,maibi_derma_005048,bkl,consensus,55.0,male,abdomen,vidir_molemax
+258,maibi_derma_005049,mel,histo,80.0,female,lower extremity,vidir_modern
+259,maibi_derma_005050,nv,histo,55.0,female,lower extremity,vidir_modern
+260,maibi_derma_005051,nv,follow_up,40.0,male,back,vidir_molemax
+261,maibi_derma_005052,nv,follow_up,60.0,male,trunk,vidir_molemax
+262,maibi_derma_005053,mel,histo,40.0,male,back,vidir_modern
+263,maibi_derma_005054,nv,follow_up,45.0,male,trunk,vidir_molemax
+264,maibi_derma_005055,bcc,histo,75.0,male,lower extremity,rosendahl
+265,maibi_derma_005056,nv,histo,65.0,female,back,vidir_modern
+266,maibi_derma_005057,nv,consensus,60.0,male,neck,vidir_modern
+267,maibi_derma_005058,mel,histo,80.0,male,back,rosendahl
+268,maibi_derma_005059,nv,follow_up,65.0,male,upper extremity,vidir_molemax
+269,maibi_derma_005060,nv,histo,45.0,female,foot,rosendahl
+270,maibi_derma_005061,mel,histo,45.0,female,lower extremity,vidir_modern
+271,maibi_derma_005062,nv,follow_up,40.0,female,lower extremity,vidir_molemax
+272,maibi_derma_005063,nv,consensus,,unknown,unknown,vidir_modern
+273,maibi_derma_005064,akiec,histo,60.0,female,face,vidir_modern
+274,maibi_derma_005065,nv,follow_up,50.0,female,lower extremity,vidir_molemax
+275,maibi_derma_005066,mel,histo,80.0,male,lower extremity,rosendahl
+276,maibi_derma_005067,nv,follow_up,50.0,male,trunk,vidir_molemax
+277,maibi_derma_005068,nv,histo,35.0,male,back,rosendahl
+278,maibi_derma_005069,nv,histo,35.0,female,foot,vienna_dias
+279,maibi_derma_005070,nv,follow_up,55.0,female,trunk,vidir_molemax
+280,maibi_derma_005071,nv,follow_up,45.0,female,abdomen,vidir_molemax
+281,maibi_derma_005072,nv,follow_up,35.0,male,abdomen,vidir_molemax
+282,maibi_derma_005073,nv,consensus,20.0,male,back,vidir_modern
+283,maibi_derma_005074,nv,follow_up,50.0,female,trunk,vidir_molemax
+284,maibi_derma_005075,nv,consensus,30.0,female,chest,vidir_modern
+285,maibi_derma_005076,nv,follow_up,55.0,male,trunk,vidir_molemax
+286,maibi_derma_005077,nv,follow_up,50.0,male,trunk,vidir_molemax
+287,maibi_derma_005078,nv,follow_up,45.0,male,back,vidir_molemax
+288,maibi_derma_005079,nv,histo,30.0,female,back,vidir_modern
+289,maibi_derma_005080,nv,follow_up,50.0,female,lower extremity,vidir_molemax
+290,maibi_derma_005081,mel,histo,35.0,male,back,vidir_modern
+291,maibi_derma_005082,akiec,histo,70.0,male,face,rosendahl
+292,maibi_derma_005083,nv,histo,50.0,male,upper extremity,rosendahl
+293,maibi_derma_005084,nv,histo,45.0,male,abdomen,vidir_modern
+294,maibi_derma_005085,nv,follow_up,35.0,male,lower extremity,vidir_molemax
+295,maibi_derma_005086,nv,histo,35.0,female,back,vidir_modern
+296,maibi_derma_005087,vasc,consensus,45.0,female,abdomen,vidir_molemax
+297,maibi_derma_005088,vasc,consensus,50.0,male,abdomen,vidir_molemax
+298,maibi_derma_005089,nv,consensus,70.0,male,upper extremity,vidir_modern
+299,maibi_derma_005090,nv,histo,70.0,male,back,vidir_modern
+300,maibi_derma_005091,nv,follow_up,40.0,male,trunk,vidir_molemax
+301,maibi_derma_005092,mel,histo,70.0,female,upper extremity,vidir_modern
+302,maibi_derma_005093,nv,follow_up,35.0,female,trunk,vidir_molemax
+303,maibi_derma_005094,nv,histo,15.0,male,face,rosendahl
+304,maibi_derma_005095,nv,consensus,35.0,male,back,vidir_modern
+305,maibi_derma_005096,nv,follow_up,50.0,female,abdomen,vidir_molemax
+306,maibi_derma_005097,nv,follow_up,35.0,female,trunk,vidir_molemax
+307,maibi_derma_005098,nv,histo,45.0,female,lower extremity,rosendahl
+308,maibi_derma_005099,nv,histo,35.0,female,back,vidir_modern
+309,maibi_derma_005100,nv,follow_up,20.0,male,lower extremity,vidir_molemax
+310,maibi_derma_005101,nv,follow_up,60.0,male,back,vidir_molemax
+311,maibi_derma_005102,nv,follow_up,75.0,female,back,vidir_molemax
+312,maibi_derma_005103,mel,histo,85.0,female,upper extremity,vidir_modern
+313,maibi_derma_005104,bkl,histo,70.0,male,back,vidir_modern
+314,maibi_derma_005105,vasc,histo,80.0,male,back,vidir_modern
+315,maibi_derma_005106,bkl,histo,45.0,male,chest,rosendahl
+316,maibi_derma_005107,bkl,consensus,,unknown,unknown,vidir_modern
+317,maibi_derma_005108,nv,histo,75.0,female,lower extremity,vienna_dias
+318,maibi_derma_005109,nv,follow_up,35.0,female,back,vidir_molemax
+319,maibi_derma_005110,nv,histo,20.0,female,upper extremity,rosendahl
+320,maibi_derma_005111,nv,follow_up,40.0,male,abdomen,vidir_molemax
+321,maibi_derma_005112,nv,histo,20.0,female,scalp,rosendahl
+322,maibi_derma_005113,nv,follow_up,65.0,male,trunk,vidir_molemax
+323,maibi_derma_005114,nv,follow_up,75.0,female,trunk,vidir_molemax
+324,maibi_derma_005115,nv,histo,25.0,female,face,vidir_modern
+325,maibi_derma_005116,nv,follow_up,45.0,male,back,vidir_molemax
+326,maibi_derma_005117,nv,histo,25.0,male,abdomen,vienna_dias
+327,maibi_derma_005118,nv,follow_up,45.0,female,upper extremity,vidir_molemax
+328,maibi_derma_005119,nv,histo,40.0,male,upper extremity,vidir_modern
+329,maibi_derma_005120,bkl,histo,60.0,female,lower extremity,vidir_modern
+330,maibi_derma_005121,akiec,histo,85.0,female,back,rosendahl
+331,maibi_derma_005122,nv,histo,60.0,male,trunk,vidir_modern
+332,maibi_derma_005123,nv,consensus,5.0,female,foot,vidir_modern
+333,maibi_derma_005124,nv,histo,35.0,female,face,vidir_modern
+334,maibi_derma_005125,nv,follow_up,45.0,male,back,vidir_molemax
+335,maibi_derma_005126,nv,histo,30.0,female,lower extremity,rosendahl
+336,maibi_derma_005127,nv,histo,75.0,female,lower extremity,vienna_dias
+337,maibi_derma_005128,nv,histo,30.0,female,back,vidir_modern
+338,maibi_derma_005129,mel,histo,60.0,male,lower extremity,rosendahl
+339,maibi_derma_005130,nv,follow_up,45.0,male,back,vidir_molemax
+340,maibi_derma_005131,nv,histo,50.0,male,back,vidir_molemax
+341,maibi_derma_005132,nv,histo,65.0,female,upper extremity,rosendahl
+342,maibi_derma_005133,nv,histo,30.0,female,lower extremity,vidir_modern
+343,maibi_derma_005134,nv,follow_up,40.0,male,foot,vidir_molemax
+344,maibi_derma_005135,nv,follow_up,50.0,male,back,vidir_molemax
+345,maibi_derma_005136,nv,follow_up,30.0,male,abdomen,vidir_molemax
+346,maibi_derma_005137,mel,histo,60.0,male,back,vienna_dias
+347,maibi_derma_005138,nv,follow_up,45.0,female,back,vidir_molemax
+348,maibi_derma_005139,nv,follow_up,40.0,male,abdomen,vidir_molemax
+349,maibi_derma_005140,bkl,histo,85.0,female,chest,vidir_modern
+350,maibi_derma_005141,nv,histo,30.0,female,trunk,vidir_modern
+351,maibi_derma_005142,nv,histo,15.0,female,lower extremity,vidir_modern
+352,maibi_derma_005143,mel,histo,85.0,male,upper extremity,vidir_modern
+353,maibi_derma_005144,nv,histo,55.0,female,ear,vidir_modern
+354,maibi_derma_005145,bcc,histo,65.0,male,back,rosendahl
+355,maibi_derma_005146,nv,follow_up,45.0,male,upper extremity,vidir_molemax
+356,maibi_derma_005147,nv,histo,55.0,male,back,rosendahl
+357,maibi_derma_005148,nv,histo,35.0,female,abdomen,vidir_modern
+358,maibi_derma_005149,nv,follow_up,75.0,male,lower extremity,vidir_molemax
+359,maibi_derma_005150,mel,histo,60.0,male,back,rosendahl
+360,maibi_derma_005151,nv,consensus,40.0,female,unknown,vidir_modern
+361,maibi_derma_005152,mel,histo,55.0,male,back,vidir_molemax
+362,maibi_derma_005153,nv,histo,45.0,male,back,vidir_modern
+363,maibi_derma_005154,akiec,histo,60.0,male,back,rosendahl
+364,maibi_derma_005155,nv,histo,25.0,female,unknown,rosendahl
+365,maibi_derma_005156,nv,histo,35.0,female,trunk,vidir_molemax
+366,maibi_derma_005157,nv,follow_up,30.0,male,upper extremity,vidir_molemax
+367,maibi_derma_005158,nv,histo,35.0,female,foot,vidir_modern
+368,maibi_derma_005159,nv,follow_up,45.0,male,foot,vidir_molemax
+369,maibi_derma_005160,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+370,maibi_derma_005161,mel,histo,40.0,male,upper extremity,vidir_modern
+371,maibi_derma_005162,nv,follow_up,40.0,male,hand,vidir_molemax
+372,maibi_derma_005163,nv,follow_up,45.0,male,lower extremity,vidir_molemax
+373,maibi_derma_005164,nv,follow_up,40.0,male,trunk,vidir_molemax
+374,maibi_derma_005165,nv,follow_up,45.0,male,lower extremity,vidir_molemax
+375,maibi_derma_005166,nv,histo,55.0,female,back,rosendahl
+376,maibi_derma_005167,mel,histo,35.0,male,abdomen,vidir_modern
+377,maibi_derma_005168,bcc,histo,75.0,male,trunk,vidir_modern
+378,maibi_derma_005169,nv,histo,55.0,male,lower extremity,vidir_modern
+379,maibi_derma_005170,bcc,histo,75.0,male,chest,vidir_modern
+380,maibi_derma_005171,nv,follow_up,60.0,female,upper extremity,vidir_molemax
+381,maibi_derma_005172,nv,follow_up,45.0,male,abdomen,vidir_molemax
+382,maibi_derma_005173,nv,consensus,60.0,male,unknown,vidir_modern
+383,maibi_derma_005174,bkl,consensus,60.0,male,hand,vidir_molemax
+384,maibi_derma_005175,nv,follow_up,35.0,female,trunk,vidir_molemax
+385,maibi_derma_005176,mel,histo,50.0,female,upper extremity,vidir_modern
+386,maibi_derma_005177,nv,follow_up,50.0,female,abdomen,vidir_molemax
+387,maibi_derma_005178,mel,histo,85.0,male,chest,vienna_dias
+388,maibi_derma_005179,bkl,consensus,30.0,female,back,vidir_modern
+389,maibi_derma_005180,mel,histo,45.0,male,unknown,vidir_modern
+390,maibi_derma_005181,nv,follow_up,50.0,male,back,vidir_molemax
+391,maibi_derma_005182,nv,follow_up,65.0,male,abdomen,vidir_molemax
+392,maibi_derma_005183,mel,histo,85.0,male,upper extremity,vidir_modern
+393,maibi_derma_005184,nv,follow_up,50.0,male,trunk,vidir_molemax
+394,maibi_derma_005185,nv,follow_up,65.0,male,abdomen,vidir_molemax
+395,maibi_derma_005186,nv,histo,60.0,male,trunk,vidir_modern
+396,maibi_derma_005187,nv,histo,75.0,female,foot,rosendahl
+397,maibi_derma_005188,nv,histo,20.0,female,lower extremity,vidir_modern
+398,maibi_derma_005189,nv,histo,70.0,male,back,rosendahl
+399,maibi_derma_005190,mel,histo,60.0,female,lower extremity,vidir_modern
+400,maibi_derma_005191,bkl,histo,60.0,female,back,rosendahl
+401,maibi_derma_005192,akiec,histo,70.0,male,upper extremity,rosendahl
+402,maibi_derma_005193,bkl,consensus,70.0,female,lower extremity,vidir_molemax
+403,maibi_derma_005194,nv,follow_up,65.0,male,trunk,vidir_molemax
+404,maibi_derma_005195,bkl,histo,60.0,female,lower extremity,vidir_modern
+405,maibi_derma_005196,nv,follow_up,60.0,female,lower extremity,vidir_molemax
+406,maibi_derma_005197,akiec,histo,75.0,male,lower extremity,rosendahl
+407,maibi_derma_005198,nv,histo,35.0,male,lower extremity,vidir_modern
+408,maibi_derma_005199,bcc,histo,85.0,female,scalp,vidir_modern
+409,maibi_derma_005200,nv,follow_up,45.0,female,abdomen,vidir_molemax
+410,maibi_derma_005201,nv,histo,50.0,male,face,rosendahl
+411,maibi_derma_005202,akiec,histo,55.0,female,face,rosendahl
+412,maibi_derma_005203,bkl,histo,65.0,female,neck,rosendahl
+413,maibi_derma_005204,nv,follow_up,50.0,male,abdomen,vidir_molemax
+414,maibi_derma_005205,nv,histo,45.0,male,back,rosendahl
+415,maibi_derma_005206,nv,follow_up,55.0,female,lower extremity,vidir_molemax
+416,maibi_derma_005207,nv,follow_up,55.0,male,back,vidir_molemax
+417,maibi_derma_005208,nv,follow_up,60.0,male,abdomen,vidir_molemax
+418,maibi_derma_005209,nv,histo,35.0,female,upper extremity,vidir_modern
+419,maibi_derma_005210,nv,consensus,50.0,female,back,vidir_modern
+420,maibi_derma_005211,nv,histo,30.0,female,hand,rosendahl
+421,maibi_derma_005212,nv,follow_up,75.0,male,trunk,vidir_molemax
+422,maibi_derma_005213,nv,consensus,30.0,male,back,vidir_modern
+423,maibi_derma_005214,nv,follow_up,50.0,female,back,vidir_molemax
+424,maibi_derma_005215,bkl,histo,45.0,male,face,rosendahl
+425,maibi_derma_005216,nv,histo,25.0,male,lower extremity,vidir_modern
+426,maibi_derma_005217,bkl,histo,60.0,male,face,vidir_modern
+427,maibi_derma_005218,bkl,histo,75.0,male,back,rosendahl
+428,maibi_derma_005219,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+429,maibi_derma_005220,nv,follow_up,60.0,male,abdomen,vidir_molemax
+430,maibi_derma_005221,bcc,histo,70.0,female,upper extremity,rosendahl
+431,maibi_derma_005222,mel,histo,45.0,male,back,rosendahl
+432,maibi_derma_005223,nv,follow_up,65.0,male,trunk,vidir_molemax
+433,maibi_derma_005224,bkl,histo,55.0,female,ear,rosendahl
+434,maibi_derma_005225,nv,histo,30.0,female,upper extremity,vidir_modern
+435,maibi_derma_005226,nv,follow_up,80.0,male,trunk,vidir_molemax
+436,maibi_derma_005227,bkl,histo,75.0,female,face,vidir_modern
+437,maibi_derma_005228,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+438,maibi_derma_005229,nv,histo,25.0,female,chest,vienna_dias
+439,maibi_derma_005230,bkl,consensus,75.0,female,trunk,vidir_molemax
+440,maibi_derma_005231,mel,histo,70.0,male,scalp,vidir_modern
+441,maibi_derma_005232,nv,follow_up,45.0,male,abdomen,vidir_molemax
+442,maibi_derma_005233,nv,follow_up,40.0,male,upper extremity,vidir_molemax
+443,maibi_derma_005234,mel,histo,65.0,male,face,vidir_modern
+444,maibi_derma_005235,mel,histo,30.0,female,back,vidir_modern
+445,maibi_derma_005236,bcc,histo,55.0,female,face,vidir_molemax
+446,maibi_derma_005237,nv,histo,20.0,female,back,vienna_dias
+447,maibi_derma_005238,mel,histo,60.0,male,back,rosendahl
+448,maibi_derma_005239,nv,follow_up,65.0,female,lower extremity,vidir_molemax
+449,maibi_derma_005240,nv,follow_up,30.0,male,upper extremity,vidir_molemax
+450,maibi_derma_005241,mel,histo,50.0,male,abdomen,vidir_modern
+451,maibi_derma_005242,mel,histo,55.0,male,back,vienna_dias
+452,maibi_derma_005243,mel,histo,55.0,female,upper extremity,rosendahl
+453,maibi_derma_005244,nv,follow_up,55.0,male,abdomen,vidir_molemax
+454,maibi_derma_005245,nv,follow_up,35.0,male,lower extremity,vidir_molemax
+455,maibi_derma_005246,akiec,histo,55.0,male,lower extremity,rosendahl
+456,maibi_derma_005247,nv,follow_up,65.0,female,abdomen,vidir_molemax
+457,maibi_derma_005248,nv,follow_up,70.0,female,foot,vidir_molemax
+458,maibi_derma_005249,nv,follow_up,35.0,female,abdomen,vidir_molemax
+459,maibi_derma_005250,nv,follow_up,55.0,male,lower extremity,vidir_molemax
+460,maibi_derma_005251,mel,histo,70.0,male,lower extremity,vidir_modern
+461,maibi_derma_005252,nv,follow_up,45.0,male,trunk,vidir_molemax
+462,maibi_derma_005253,nv,histo,65.0,female,lower extremity,rosendahl
+463,maibi_derma_005254,mel,histo,75.0,male,face,vidir_modern
+464,maibi_derma_005255,nv,histo,50.0,female,lower extremity,rosendahl
+465,maibi_derma_005256,nv,histo,35.0,male,upper extremity,rosendahl
+466,maibi_derma_005257,df,histo,55.0,male,upper extremity,rosendahl
+467,maibi_derma_005258,nv,histo,45.0,female,foot,rosendahl
+468,maibi_derma_005259,nv,follow_up,50.0,male,abdomen,vidir_molemax
+469,maibi_derma_005260,nv,follow_up,45.0,female,trunk,vidir_molemax
+470,maibi_derma_005261,bkl,consensus,80.0,male,trunk,vidir_modern
+471,maibi_derma_005262,nv,histo,60.0,female,back,rosendahl
+472,maibi_derma_005263,nv,histo,85.0,female,back,vidir_modern
+473,maibi_derma_005264,nv,follow_up,60.0,male,back,vidir_molemax
+474,maibi_derma_005265,nv,follow_up,45.0,male,trunk,vidir_molemax
+475,maibi_derma_005266,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+476,maibi_derma_005267,mel,histo,80.0,female,lower extremity,rosendahl
+477,maibi_derma_005268,nv,follow_up,50.0,female,trunk,vidir_molemax
+478,maibi_derma_005269,nv,follow_up,55.0,female,abdomen,vidir_molemax
+479,maibi_derma_005270,bcc,histo,40.0,female,trunk,vidir_modern
+480,maibi_derma_005271,bkl,histo,85.0,male,face,rosendahl
+481,maibi_derma_005272,mel,histo,85.0,male,back,vidir_modern
+482,maibi_derma_005273,nv,follow_up,35.0,male,trunk,vidir_molemax
+483,maibi_derma_005274,nv,histo,0.0,male,foot,vidir_modern
+484,maibi_derma_005275,bkl,consensus,75.0,male,face,vidir_modern
+485,maibi_derma_005276,nv,histo,40.0,female,back,vidir_modern
+486,maibi_derma_005277,bkl,consensus,70.0,female,back,vidir_modern
+487,maibi_derma_005278,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+488,maibi_derma_005279,nv,follow_up,55.0,male,lower extremity,vidir_molemax
+489,maibi_derma_005280,nv,follow_up,60.0,male,abdomen,vidir_molemax
+490,maibi_derma_005281,nv,follow_up,45.0,male,abdomen,vidir_molemax
+491,maibi_derma_005282,nv,histo,50.0,male,back,vidir_modern
+492,maibi_derma_005283,nv,histo,45.0,female,foot,rosendahl
+493,maibi_derma_005284,nv,histo,40.0,female,back,rosendahl
+494,maibi_derma_005285,bcc,histo,80.0,male,face,rosendahl
+495,maibi_derma_005286,nv,histo,25.0,female,unknown,vienna_dias
+496,maibi_derma_005287,nv,follow_up,50.0,male,lower extremity,vidir_molemax
+497,maibi_derma_005288,nv,follow_up,35.0,male,back,vidir_molemax
+498,maibi_derma_005289,bkl,consensus,70.0,female,trunk,vidir_molemax
+499,maibi_derma_005290,mel,histo,50.0,male,upper extremity,vienna_dias
+500,maibi_derma_005291,mel,histo,70.0,male,lower extremity,rosendahl
+501,maibi_derma_005292,mel,histo,75.0,male,abdomen,vidir_modern
+502,maibi_derma_005293,nv,histo,50.0,female,upper extremity,rosendahl
+503,maibi_derma_005294,bcc,histo,75.0,male,lower extremity,rosendahl
+504,maibi_derma_005295,bcc,histo,75.0,female,back,rosendahl
+505,maibi_derma_005296,bkl,confocal,45.0,female,face,vidir_modern
+506,maibi_derma_005297,nv,histo,85.0,male,lower extremity,rosendahl
+507,maibi_derma_005298,nv,histo,55.0,female,hand,vidir_modern
+508,maibi_derma_005299,bcc,histo,60.0,male,chest,vienna_dias
+509,maibi_derma_005300,nv,consensus,45.0,female,foot,vidir_modern
+510,maibi_derma_005301,nv,follow_up,50.0,female,trunk,vidir_molemax
+511,maibi_derma_005302,mel,histo,40.0,female,back,vidir_modern
+512,maibi_derma_005303,bkl,histo,45.0,male,face,vidir_modern
+513,maibi_derma_005304,nv,follow_up,45.0,female,trunk,vidir_molemax
+514,maibi_derma_005305,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+515,maibi_derma_005306,nv,follow_up,45.0,male,trunk,vidir_molemax
+516,maibi_derma_005307,bkl,histo,40.0,male,face,vidir_modern
+517,maibi_derma_005308,nv,histo,60.0,female,upper extremity,vidir_modern
+518,maibi_derma_005309,nv,histo,45.0,female,abdomen,vidir_modern
+519,maibi_derma_005310,bkl,histo,65.0,male,neck,rosendahl
+520,maibi_derma_005311,nv,follow_up,50.0,male,trunk,vidir_molemax
+521,maibi_derma_005312,nv,histo,50.0,male,scalp,vidir_modern
+522,maibi_derma_005313,nv,histo,55.0,male,chest,rosendahl
+523,maibi_derma_005314,nv,follow_up,35.0,female,upper extremity,vidir_molemax
+524,maibi_derma_005315,vasc,consensus,55.0,male,abdomen,vidir_molemax
+525,maibi_derma_005316,nv,histo,50.0,male,back,vidir_modern
+526,maibi_derma_005317,nv,consensus,5.0,male,upper extremity,vidir_modern
+527,maibi_derma_005318,nv,follow_up,55.0,female,trunk,vidir_molemax
+528,maibi_derma_005319,nv,histo,25.0,female,ear,vidir_modern
+529,maibi_derma_005320,nv,follow_up,75.0,male,trunk,vidir_molemax
+530,maibi_derma_005321,nv,follow_up,35.0,female,abdomen,vidir_molemax
+531,maibi_derma_005322,akiec,histo,60.0,female,lower extremity,rosendahl
+532,maibi_derma_005323,mel,histo,75.0,male,upper extremity,vidir_modern
+533,maibi_derma_005324,nv,follow_up,40.0,male,back,vidir_molemax
+534,maibi_derma_005325,nv,follow_up,35.0,female,trunk,vidir_molemax
+535,maibi_derma_005326,bcc,histo,85.0,male,lower extremity,vidir_modern
+536,maibi_derma_005327,nv,follow_up,60.0,male,back,vidir_molemax
+537,maibi_derma_005328,nv,follow_up,35.0,male,lower extremity,vidir_molemax
+538,maibi_derma_005329,bkl,histo,45.0,male,back,vidir_modern
+539,maibi_derma_005330,nv,follow_up,35.0,male,foot,vidir_molemax
+540,maibi_derma_005331,bkl,histo,35.0,female,lower extremity,rosendahl
+541,maibi_derma_005332,nv,follow_up,40.0,male,trunk,vidir_molemax
+542,maibi_derma_005333,nv,follow_up,65.0,male,trunk,vidir_molemax
+543,maibi_derma_005334,nv,follow_up,45.0,male,upper extremity,vidir_molemax
+544,maibi_derma_005335,akiec,histo,55.0,female,face,rosendahl
+545,maibi_derma_005336,nv,follow_up,75.0,male,abdomen,vidir_molemax
+546,maibi_derma_005337,bkl,histo,60.0,female,lower extremity,rosendahl
+547,maibi_derma_005338,nv,follow_up,45.0,female,back,vidir_molemax
+548,maibi_derma_005339,akiec,histo,65.0,female,upper extremity,rosendahl
+549,maibi_derma_005340,nv,follow_up,50.0,male,lower extremity,vidir_molemax
+550,maibi_derma_005341,bkl,consensus,85.0,male,trunk,vidir_modern
+551,maibi_derma_005342,nv,consensus,40.0,male,back,vidir_modern
+552,maibi_derma_005343,nv,follow_up,45.0,female,back,vidir_molemax
+553,maibi_derma_005344,mel,histo,65.0,female,back,rosendahl
+554,maibi_derma_005345,nv,histo,75.0,male,back,rosendahl
+555,maibi_derma_005346,mel,histo,80.0,male,upper extremity,vidir_modern
+556,maibi_derma_005347,nv,follow_up,40.0,female,trunk,vidir_molemax
+557,maibi_derma_005348,nv,follow_up,70.0,male,abdomen,vidir_molemax
+558,maibi_derma_005349,nv,follow_up,60.0,female,trunk,vidir_molemax
+559,maibi_derma_005350,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+560,maibi_derma_005351,nv,follow_up,40.0,male,back,vidir_molemax
+561,maibi_derma_005352,nv,histo,65.0,male,back,vidir_modern
+562,maibi_derma_005353,bcc,histo,70.0,male,foot,rosendahl
+563,maibi_derma_005354,nv,histo,40.0,male,foot,vienna_dias
+564,maibi_derma_005355,bcc,histo,65.0,male,back,rosendahl
+565,maibi_derma_005356,nv,consensus,60.0,female,abdomen,vidir_modern
+566,maibi_derma_005357,bcc,histo,55.0,male,back,rosendahl
+567,maibi_derma_005358,mel,histo,65.0,male,back,vidir_modern
+568,maibi_derma_005359,bcc,histo,70.0,female,face,rosendahl
+569,maibi_derma_005360,akiec,histo,85.0,male,upper extremity,rosendahl
+570,maibi_derma_005361,nv,follow_up,65.0,male,trunk,vidir_molemax
+571,maibi_derma_005362,nv,follow_up,40.0,male,upper extremity,vidir_molemax
+572,maibi_derma_005363,nv,follow_up,45.0,male,lower extremity,vidir_molemax
+573,maibi_derma_005364,nv,follow_up,80.0,male,back,vidir_molemax
+574,maibi_derma_005365,nv,follow_up,45.0,male,foot,vidir_molemax
+575,maibi_derma_005366,nv,follow_up,50.0,male,trunk,vidir_molemax
+576,maibi_derma_005367,nv,follow_up,60.0,male,upper extremity,vidir_molemax
+577,maibi_derma_005368,nv,follow_up,45.0,female,trunk,vidir_molemax
+578,maibi_derma_005369,nv,histo,20.0,female,chest,vidir_modern
+579,maibi_derma_005370,mel,histo,50.0,male,upper extremity,rosendahl
+580,maibi_derma_005371,mel,histo,45.0,male,lower extremity,vidir_molemax
+581,maibi_derma_005372,mel,histo,80.0,male,upper extremity,vidir_modern
+582,maibi_derma_005373,nv,histo,40.0,male,trunk,vidir_modern
+583,maibi_derma_005374,nv,histo,40.0,male,chest,rosendahl
+584,maibi_derma_005375,nv,consensus,45.0,male,trunk,vidir_modern
+585,maibi_derma_005376,nv,histo,75.0,female,upper extremity,vidir_modern
+586,maibi_derma_005377,nv,histo,30.0,female,back,rosendahl
+587,maibi_derma_005378,mel,histo,70.0,male,face,rosendahl
+588,maibi_derma_005379,bkl,consensus,70.0,male,trunk,vidir_molemax
+589,maibi_derma_005380,bkl,histo,55.0,male,trunk,vidir_modern
+590,maibi_derma_005381,nv,histo,25.0,female,back,vidir_modern
+591,maibi_derma_005382,nv,follow_up,35.0,male,abdomen,vidir_molemax
+592,maibi_derma_005383,nv,histo,70.0,male,back,vienna_dias
+593,maibi_derma_005384,nv,follow_up,45.0,female,trunk,vidir_molemax
+594,maibi_derma_005385,nv,follow_up,50.0,female,abdomen,vidir_molemax
+595,maibi_derma_005386,nv,follow_up,45.0,female,upper extremity,vidir_molemax
+596,maibi_derma_005387,bcc,histo,50.0,male,upper extremity,vidir_modern
+597,maibi_derma_005388,nv,consensus,10.0,female,upper extremity,vidir_modern
+598,maibi_derma_005389,nv,histo,45.0,male,trunk,vidir_modern
+599,maibi_derma_005390,nv,follow_up,65.0,male,upper extremity,vidir_molemax
+600,maibi_derma_005391,bkl,histo,45.0,female,lower extremity,rosendahl
+601,maibi_derma_005392,nv,histo,85.0,male,back,vidir_modern
+602,maibi_derma_005393,nv,consensus,40.0,female,unknown,vidir_modern
+603,maibi_derma_005394,nv,histo,45.0,male,foot,vidir_modern
+604,maibi_derma_005395,akiec,histo,80.0,male,face,vidir_modern
+605,maibi_derma_005396,nv,follow_up,55.0,female,abdomen,vidir_molemax
+606,maibi_derma_005397,nv,follow_up,70.0,male,back,vidir_molemax
+607,maibi_derma_005398,nv,follow_up,50.0,female,back,vidir_molemax
+608,maibi_derma_005399,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+609,maibi_derma_005400,mel,histo,50.0,female,foot,vidir_modern
+610,maibi_derma_005401,nv,histo,45.0,male,back,rosendahl
+611,maibi_derma_005402,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+612,maibi_derma_005403,nv,histo,15.0,female,foot,vidir_modern
+613,maibi_derma_005404,nv,consensus,0.0,male,chest,vidir_modern
+614,maibi_derma_005405,nv,follow_up,75.0,female,lower extremity,vidir_molemax
+615,maibi_derma_005406,bcc,histo,70.0,male,lower extremity,rosendahl
+616,maibi_derma_005407,nv,consensus,15.0,male,back,vidir_modern
+617,maibi_derma_005408,mel,histo,60.0,female,back,rosendahl
+618,maibi_derma_005409,nv,histo,65.0,male,back,rosendahl
+619,maibi_derma_005410,nv,histo,30.0,female,lower extremity,vidir_modern
+620,maibi_derma_005411,nv,histo,15.0,female,hand,vidir_modern
+621,maibi_derma_005412,nv,follow_up,50.0,male,lower extremity,vidir_molemax
+622,maibi_derma_005413,nv,consensus,5.0,male,foot,vidir_modern
+623,maibi_derma_005414,nv,histo,70.0,male,back,rosendahl
+624,maibi_derma_005415,nv,histo,35.0,female,back,vienna_dias
+625,maibi_derma_005416,nv,follow_up,45.0,male,lower extremity,vidir_molemax
+626,maibi_derma_005417,nv,histo,60.0,male,lower extremity,vidir_modern
+627,maibi_derma_005418,nv,follow_up,40.0,female,lower extremity,vidir_molemax
+628,maibi_derma_005419,nv,follow_up,40.0,female,foot,vidir_molemax
+629,maibi_derma_005420,nv,histo,80.0,female,upper extremity,vidir_modern
+630,maibi_derma_005421,nv,consensus,75.0,female,back,vidir_modern
+631,maibi_derma_005422,nv,follow_up,65.0,female,lower extremity,vidir_molemax
+632,maibi_derma_005423,nv,histo,30.0,male,lower extremity,rosendahl
+633,maibi_derma_005424,nv,consensus,0.0,female,lower extremity,vidir_modern
+634,maibi_derma_005425,nv,histo,25.0,female,lower extremity,rosendahl
+635,maibi_derma_005426,nv,histo,30.0,male,chest,vidir_modern
+636,maibi_derma_005427,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+637,maibi_derma_005428,mel,histo,,male,face,vidir_modern
+638,maibi_derma_005429,mel,histo,75.0,male,foot,vidir_modern
+639,maibi_derma_005430,nv,histo,10.0,female,foot,vidir_modern
+640,maibi_derma_005431,bkl,histo,75.0,male,lower extremity,vidir_modern
+641,maibi_derma_005432,nv,follow_up,45.0,male,lower extremity,vidir_molemax
+642,maibi_derma_005433,bkl,consensus,60.0,male,face,vidir_modern
+643,maibi_derma_005434,nv,follow_up,55.0,female,lower extremity,vidir_molemax
+644,maibi_derma_005435,mel,histo,70.0,male,abdomen,rosendahl
+645,maibi_derma_005436,nv,follow_up,75.0,male,neck,vidir_molemax
+646,maibi_derma_005437,mel,histo,75.0,male,upper extremity,rosendahl
+647,maibi_derma_005438,nv,consensus,5.0,male,upper extremity,vidir_modern
+648,maibi_derma_005439,nv,histo,60.0,male,lower extremity,vidir_modern
+649,maibi_derma_005440,nv,follow_up,50.0,female,trunk,vidir_molemax
+650,maibi_derma_005441,nv,follow_up,35.0,female,trunk,vidir_molemax
+651,maibi_derma_005442,bcc,histo,70.0,male,back,rosendahl
+652,maibi_derma_005443,nv,follow_up,40.0,male,abdomen,vidir_molemax
+653,maibi_derma_005444,nv,follow_up,70.0,male,back,vidir_molemax
+654,maibi_derma_005445,nv,follow_up,60.0,male,abdomen,vidir_molemax
+655,maibi_derma_005446,nv,follow_up,60.0,male,trunk,vidir_molemax
+656,maibi_derma_005447,bcc,histo,70.0,female,face,rosendahl
+657,maibi_derma_005448,nv,histo,30.0,female,foot,vidir_modern
+658,maibi_derma_005449,nv,histo,35.0,female,chest,vidir_modern
+659,maibi_derma_005450,nv,follow_up,45.0,male,back,vidir_molemax
+660,maibi_derma_005451,nv,consensus,45.0,female,unknown,vidir_modern
+661,maibi_derma_005452,bkl,consensus,40.0,male,unknown,vidir_modern
+662,maibi_derma_005453,nv,histo,35.0,female,trunk,vidir_modern
+663,maibi_derma_005454,vasc,histo,40.0,female,chest,vidir_modern
+664,maibi_derma_005455,nv,consensus,0.0,male,upper extremity,vidir_modern
+665,maibi_derma_005456,nv,histo,60.0,female,lower extremity,rosendahl
+666,maibi_derma_005457,nv,follow_up,55.0,female,trunk,vidir_molemax
+667,maibi_derma_005458,mel,histo,65.0,male,upper extremity,vidir_modern
+668,maibi_derma_005459,mel,histo,30.0,female,abdomen,vidir_modern
+669,maibi_derma_005460,nv,follow_up,50.0,female,back,vidir_molemax
+670,maibi_derma_005461,nv,histo,50.0,female,back,rosendahl
+671,maibi_derma_005462,nv,follow_up,60.0,male,back,vidir_molemax
+672,maibi_derma_005463,nv,follow_up,55.0,female,lower extremity,vidir_molemax
+673,maibi_derma_005464,mel,histo,40.0,female,back,vienna_dias
+674,maibi_derma_005465,nv,follow_up,55.0,female,neck,vidir_molemax
+675,maibi_derma_005466,bkl,histo,85.0,female,lower extremity,vidir_modern
+676,maibi_derma_005467,mel,histo,70.0,male,upper extremity,vidir_modern
+677,maibi_derma_005468,mel,histo,75.0,male,abdomen,vidir_modern
+678,maibi_derma_005469,nv,follow_up,45.0,female,upper extremity,vidir_molemax
+679,maibi_derma_005470,nv,follow_up,45.0,male,abdomen,vidir_molemax
+680,maibi_derma_005471,nv,histo,70.0,female,back,rosendahl
+681,maibi_derma_005472,nv,histo,50.0,female,upper extremity,vidir_modern
+682,maibi_derma_005473,nv,histo,55.0,male,lower extremity,vidir_modern
+683,maibi_derma_005474,nv,follow_up,65.0,male,trunk,vidir_molemax
+684,maibi_derma_005475,mel,histo,75.0,female,lower extremity,vidir_modern
+685,maibi_derma_005476,nv,follow_up,30.0,female,back,vidir_molemax
+686,maibi_derma_005477,nv,histo,70.0,female,upper extremity,vidir_modern
+687,maibi_derma_005478,nv,follow_up,65.0,male,abdomen,vidir_molemax
+688,maibi_derma_005479,mel,histo,45.0,female,lower extremity,vidir_modern
+689,maibi_derma_005480,nv,follow_up,40.0,female,back,vidir_molemax
+690,maibi_derma_005481,nv,histo,60.0,female,upper extremity,rosendahl
+691,maibi_derma_005482,nv,histo,10.0,female,upper extremity,vidir_modern
+692,maibi_derma_005483,nv,follow_up,50.0,male,abdomen,vidir_molemax
+693,maibi_derma_005484,nv,follow_up,45.0,male,back,vidir_molemax
+694,maibi_derma_005485,bkl,consensus,80.0,male,trunk,vidir_modern
+695,maibi_derma_005486,nv,follow_up,40.0,male,ear,vidir_molemax
+696,maibi_derma_005487,bkl,histo,30.0,female,face,rosendahl
+697,maibi_derma_005488,nv,follow_up,50.0,female,upper extremity,vidir_molemax
+698,maibi_derma_005489,nv,histo,55.0,male,back,rosendahl
+699,maibi_derma_005490,nv,follow_up,75.0,male,trunk,vidir_molemax
+700,maibi_derma_005491,nv,histo,75.0,male,trunk,rosendahl
+701,maibi_derma_005492,bkl,histo,85.0,male,back,rosendahl
+702,maibi_derma_005493,nv,histo,70.0,female,foot,rosendahl
+703,maibi_derma_005494,nv,follow_up,50.0,male,trunk,vidir_molemax
+704,maibi_derma_005495,bcc,histo,65.0,male,back,rosendahl
+705,maibi_derma_005496,mel,histo,70.0,male,upper extremity,vidir_modern
+706,maibi_derma_005497,nv,histo,45.0,female,trunk,vienna_dias
+707,maibi_derma_005498,nv,follow_up,65.0,male,back,vidir_molemax
+708,maibi_derma_005499,bkl,histo,65.0,female,chest,rosendahl
+709,maibi_derma_005500,nv,histo,75.0,male,back,rosendahl
+710,maibi_derma_005501,nv,follow_up,60.0,male,upper extremity,vidir_molemax
+711,maibi_derma_005502,nv,consensus,50.0,female,chest,vidir_modern
+712,maibi_derma_005503,nv,consensus,,unknown,unknown,vidir_modern
+713,maibi_derma_005504,nv,histo,0.0,male,foot,vidir_modern
+714,maibi_derma_005505,nv,histo,40.0,female,back,vidir_modern
+715,maibi_derma_005506,nv,follow_up,55.0,female,back,vidir_molemax
+716,maibi_derma_005507,bkl,histo,85.0,male,chest,vidir_modern
+717,maibi_derma_005508,bcc,histo,75.0,male,chest,rosendahl
+718,maibi_derma_005509,nv,histo,30.0,female,abdomen,vidir_modern
+719,maibi_derma_005510,bkl,histo,60.0,male,face,vidir_modern
+720,maibi_derma_005511,nv,follow_up,25.0,male,trunk,vidir_molemax
+721,maibi_derma_005512,vasc,consensus,45.0,female,trunk,vidir_molemax
+722,maibi_derma_005513,mel,histo,80.0,male,chest,rosendahl
+723,maibi_derma_005514,nv,follow_up,65.0,female,abdomen,vidir_molemax
+724,maibi_derma_005515,nv,histo,15.0,female,back,vienna_dias
+725,maibi_derma_005516,nv,histo,55.0,male,back,vidir_modern
+726,maibi_derma_005517,nv,histo,40.0,male,abdomen,vidir_modern
+727,maibi_derma_005518,akiec,histo,55.0,female,face,rosendahl
+728,maibi_derma_005519,nv,follow_up,5.0,male,upper extremity,vidir_molemax
+729,maibi_derma_005520,nv,consensus,,unknown,unknown,vidir_modern
+730,maibi_derma_005521,nv,follow_up,40.0,male,abdomen,vidir_molemax
+731,maibi_derma_005522,nv,follow_up,40.0,female,lower extremity,vidir_molemax
+732,maibi_derma_005523,nv,histo,50.0,male,chest,rosendahl
+733,maibi_derma_005524,nv,histo,55.0,male,upper extremity,vienna_dias
+734,maibi_derma_005525,vasc,histo,60.0,female,back,rosendahl
+735,maibi_derma_005526,bcc,histo,65.0,female,neck,vidir_modern
+736,maibi_derma_005527,bcc,histo,75.0,male,abdomen,vidir_modern
+737,maibi_derma_005528,nv,follow_up,30.0,female,abdomen,vidir_molemax
+738,maibi_derma_005529,nv,follow_up,50.0,male,abdomen,vidir_molemax
+739,maibi_derma_005530,nv,follow_up,50.0,male,trunk,vidir_molemax
+740,maibi_derma_005531,nv,histo,35.0,male,upper extremity,vienna_dias
+741,maibi_derma_005532,nv,follow_up,50.0,male,trunk,vidir_molemax
+742,maibi_derma_005533,nv,histo,25.0,male,trunk,vidir_modern
+743,maibi_derma_005534,nv,follow_up,60.0,female,trunk,vidir_molemax
+744,maibi_derma_005535,nv,histo,30.0,male,lower extremity,vienna_dias
+745,maibi_derma_005536,bkl,histo,65.0,male,lower extremity,rosendahl
+746,maibi_derma_005537,akiec,histo,60.0,female,face,rosendahl
+747,maibi_derma_005538,bkl,histo,80.0,male,upper extremity,rosendahl
+748,maibi_derma_005539,nv,follow_up,35.0,male,lower extremity,vidir_molemax
+749,maibi_derma_005540,mel,histo,50.0,male,back,vidir_modern
+750,maibi_derma_005541,nv,follow_up,80.0,male,trunk,vidir_molemax
+751,maibi_derma_005542,bkl,histo,55.0,male,face,rosendahl
+752,maibi_derma_005543,nv,follow_up,60.0,male,abdomen,vidir_molemax
+753,maibi_derma_005544,nv,histo,60.0,male,back,rosendahl
+754,maibi_derma_005545,mel,histo,85.0,male,back,vidir_modern
+755,maibi_derma_005546,bkl,histo,85.0,female,neck,rosendahl
+756,maibi_derma_005547,nv,follow_up,40.0,female,upper extremity,vidir_molemax
+757,maibi_derma_005548,nv,histo,60.0,male,upper extremity,rosendahl
+758,maibi_derma_005549,mel,histo,40.0,female,upper extremity,vienna_dias
+759,maibi_derma_005550,mel,histo,85.0,female,lower extremity,vidir_modern
+760,maibi_derma_005551,nv,follow_up,45.0,male,upper extremity,vidir_molemax
+761,maibi_derma_005552,nv,histo,55.0,male,back,rosendahl
+762,maibi_derma_005553,bkl,histo,75.0,male,upper extremity,vidir_modern
+763,maibi_derma_005554,nv,follow_up,70.0,male,lower extremity,vidir_molemax
+764,maibi_derma_005555,nv,histo,55.0,male,back,vidir_modern
+765,maibi_derma_005556,nv,consensus,0.0,male,foot,vidir_modern
+766,maibi_derma_005557,nv,histo,75.0,female,upper extremity,rosendahl
+767,maibi_derma_005558,mel,histo,70.0,female,lower extremity,vidir_modern
+768,maibi_derma_005559,mel,histo,45.0,female,upper extremity,vidir_modern
+769,maibi_derma_005560,bkl,histo,80.0,male,upper extremity,rosendahl
+770,maibi_derma_005561,nv,follow_up,40.0,female,lower extremity,vidir_molemax
+771,maibi_derma_005562,bkl,consensus,45.0,female,abdomen,vidir_molemax
+772,maibi_derma_005563,nv,histo,30.0,female,trunk,vidir_modern
+773,maibi_derma_005564,nv,histo,30.0,female,neck,rosendahl
+774,maibi_derma_005565,nv,histo,30.0,female,abdomen,vienna_dias
+775,maibi_derma_005566,nv,histo,10.0,female,trunk,vidir_modern
+776,maibi_derma_005567,nv,consensus,70.0,male,trunk,vidir_modern
+777,maibi_derma_005568,nv,follow_up,55.0,female,abdomen,vidir_molemax
+778,maibi_derma_005569,nv,histo,35.0,male,hand,rosendahl
+779,maibi_derma_005570,nv,follow_up,45.0,male,upper extremity,vidir_molemax
+780,maibi_derma_005571,bkl,consensus,75.0,male,trunk,vidir_molemax
+781,maibi_derma_005572,nv,histo,55.0,male,lower extremity,vidir_modern
+782,maibi_derma_005573,nv,follow_up,50.0,male,trunk,vidir_molemax
+783,maibi_derma_005574,nv,follow_up,40.0,female,lower extremity,vidir_molemax
+784,maibi_derma_005575,nv,follow_up,55.0,female,lower extremity,vidir_molemax
+785,maibi_derma_005576,nv,consensus,45.0,male,abdomen,vidir_modern
+786,maibi_derma_005577,nv,follow_up,55.0,female,foot,vidir_molemax
+787,maibi_derma_005578,nv,histo,20.0,male,foot,vidir_modern
+788,maibi_derma_005579,nv,follow_up,65.0,male,trunk,vidir_molemax
+789,maibi_derma_005580,nv,consensus,40.0,female,unknown,vidir_modern
+790,maibi_derma_005581,nv,follow_up,45.0,male,upper extremity,vidir_molemax
+791,maibi_derma_005582,nv,follow_up,65.0,male,trunk,vidir_molemax
+792,maibi_derma_005583,nv,follow_up,50.0,male,back,vidir_molemax
+793,maibi_derma_005584,bcc,histo,70.0,male,upper extremity,rosendahl
+794,maibi_derma_005585,nv,follow_up,65.0,male,back,vidir_molemax
+795,maibi_derma_005586,nv,histo,40.0,female,back,vidir_modern
+796,maibi_derma_005587,nv,follow_up,45.0,female,neck,vidir_molemax
+797,maibi_derma_005588,nv,follow_up,45.0,male,back,vidir_molemax
+798,maibi_derma_005589,nv,follow_up,50.0,female,lower extremity,vidir_molemax
+799,maibi_derma_005590,mel,histo,70.0,male,abdomen,vidir_modern
+800,maibi_derma_005591,bkl,histo,60.0,female,lower extremity,vidir_modern
+801,maibi_derma_005592,nv,follow_up,50.0,female,back,vidir_molemax
+802,maibi_derma_005593,nv,follow_up,35.0,male,lower extremity,vidir_molemax
+803,maibi_derma_005594,bkl,confocal,55.0,female,face,vidir_modern
+804,maibi_derma_005595,bkl,histo,70.0,female,lower extremity,rosendahl
+805,maibi_derma_005596,bcc,histo,55.0,male,upper extremity,vidir_modern
+806,maibi_derma_005597,bkl,histo,60.0,male,lower extremity,rosendahl
+807,maibi_derma_005598,nv,follow_up,40.0,female,lower extremity,vidir_molemax
+808,maibi_derma_005599,nv,follow_up,45.0,female,back,vidir_molemax
+809,maibi_derma_005600,nv,histo,35.0,female,abdomen,vidir_modern
+810,maibi_derma_005601,mel,histo,55.0,male,upper extremity,vidir_modern
+811,maibi_derma_005602,bkl,consensus,70.0,male,face,vidir_modern
+812,maibi_derma_005603,nv,consensus,60.0,female,abdomen,vidir_modern
+813,maibi_derma_005604,mel,histo,70.0,male,scalp,vidir_modern
+814,maibi_derma_005605,nv,histo,15.0,female,neck,vidir_modern
+815,maibi_derma_005606,nv,follow_up,25.0,male,trunk,vidir_molemax
+816,maibi_derma_005607,nv,histo,45.0,female,upper extremity,vidir_modern
+817,maibi_derma_005608,nv,follow_up,35.0,male,lower extremity,vidir_molemax
+818,maibi_derma_005609,nv,follow_up,50.0,female,abdomen,vidir_molemax
+819,maibi_derma_005610,nv,histo,45.0,male,face,vidir_modern
+820,maibi_derma_005611,nv,follow_up,45.0,male,back,vidir_molemax
+821,maibi_derma_005612,bkl,histo,70.0,female,upper extremity,rosendahl
+822,maibi_derma_005613,nv,follow_up,40.0,male,trunk,vidir_molemax
+823,maibi_derma_005614,nv,consensus,85.0,male,unknown,vidir_modern
+824,maibi_derma_005615,bkl,consensus,45.0,female,abdomen,vidir_molemax
+825,maibi_derma_005616,bkl,confocal,70.0,male,face,vidir_modern
+826,maibi_derma_005617,nv,follow_up,50.0,male,lower extremity,vidir_molemax
+827,maibi_derma_005618,nv,follow_up,50.0,male,abdomen,vidir_molemax
+828,maibi_derma_005619,nv,follow_up,65.0,male,trunk,vidir_molemax
+829,maibi_derma_005620,nv,histo,55.0,male,abdomen,vidir_modern
+830,maibi_derma_005621,mel,histo,55.0,male,back,rosendahl
+831,maibi_derma_005622,akiec,histo,50.0,male,face,rosendahl
+832,maibi_derma_005623,mel,histo,70.0,male,trunk,vidir_modern
+833,maibi_derma_005624,df,histo,80.0,male,upper extremity,rosendahl
+834,maibi_derma_005625,nv,follow_up,45.0,male,lower extremity,vidir_molemax
+835,maibi_derma_005626,nv,histo,25.0,male,neck,vidir_modern
+836,maibi_derma_005627,mel,histo,40.0,male,upper extremity,vidir_modern
+837,maibi_derma_005628,bkl,histo,35.0,male,face,rosendahl
+838,maibi_derma_005629,nv,histo,35.0,female,unknown,vidir_modern
+839,maibi_derma_005630,mel,histo,70.0,male,back,rosendahl
+840,maibi_derma_005631,bcc,histo,50.0,male,back,rosendahl
+841,maibi_derma_005632,nv,histo,30.0,female,lower extremity,vidir_modern
+842,maibi_derma_005633,bcc,histo,75.0,male,back,rosendahl
+843,maibi_derma_005634,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+844,maibi_derma_005635,nv,follow_up,40.0,male,trunk,vidir_molemax
+845,maibi_derma_005636,nv,follow_up,50.0,male,upper extremity,vidir_molemax
+846,maibi_derma_005637,nv,follow_up,60.0,male,upper extremity,vidir_molemax
+847,maibi_derma_005638,nv,histo,70.0,male,abdomen,vidir_modern
+848,maibi_derma_005639,mel,histo,45.0,female,abdomen,rosendahl
+849,maibi_derma_005640,nv,histo,35.0,female,face,rosendahl
+850,maibi_derma_005641,nv,follow_up,35.0,female,back,vidir_molemax
+851,maibi_derma_005642,mel,histo,60.0,male,back,rosendahl
+852,maibi_derma_005643,nv,follow_up,45.0,male,genital,vidir_molemax
+853,maibi_derma_005644,bcc,histo,80.0,male,back,rosendahl
+854,maibi_derma_005645,nv,follow_up,45.0,male,trunk,vidir_molemax
+855,maibi_derma_005646,bkl,histo,75.0,female,chest,rosendahl
+856,maibi_derma_005647,nv,follow_up,60.0,male,trunk,vidir_molemax
+857,maibi_derma_005648,akiec,histo,60.0,female,face,rosendahl
+858,maibi_derma_005649,mel,histo,55.0,male,trunk,vidir_modern
+859,maibi_derma_005650,nv,histo,30.0,female,back,vidir_modern
+860,maibi_derma_005651,bkl,histo,45.0,male,face,rosendahl
+861,maibi_derma_005652,akiec,histo,50.0,male,upper extremity,rosendahl
+862,maibi_derma_005653,nv,follow_up,55.0,female,lower extremity,vidir_molemax
+863,maibi_derma_005654,nv,histo,75.0,female,upper extremity,vidir_modern
+864,maibi_derma_005655,nv,consensus,25.0,male,abdomen,vidir_modern
+865,maibi_derma_005656,nv,histo,20.0,female,lower extremity,vidir_modern
+866,maibi_derma_005657,bcc,histo,75.0,female,back,vidir_modern
+867,maibi_derma_005658,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+868,maibi_derma_005659,mel,histo,50.0,male,upper extremity,rosendahl
+869,maibi_derma_005660,nv,histo,30.0,female,lower extremity,rosendahl
+870,maibi_derma_005661,nv,histo,75.0,female,upper extremity,vidir_modern
+871,maibi_derma_005662,nv,histo,65.0,male,back,vienna_dias
+872,maibi_derma_005663,nv,consensus,35.0,male,abdomen,vidir_modern
+873,maibi_derma_005664,nv,follow_up,60.0,male,abdomen,vidir_molemax
+874,maibi_derma_005665,nv,histo,45.0,female,lower extremity,vidir_modern
+875,maibi_derma_005666,nv,follow_up,45.0,female,trunk,vidir_molemax
+876,maibi_derma_005667,nv,follow_up,45.0,male,trunk,vidir_molemax
+877,maibi_derma_005668,bkl,histo,40.0,male,face,rosendahl
+878,maibi_derma_005669,nv,follow_up,60.0,female,trunk,vidir_molemax
+879,maibi_derma_005670,nv,histo,30.0,female,abdomen,rosendahl
+880,maibi_derma_005671,bkl,histo,45.0,male,face,rosendahl
+881,maibi_derma_005672,mel,histo,65.0,male,ear,vidir_modern
+882,maibi_derma_005673,nv,histo,40.0,male,abdomen,vienna_dias
+883,maibi_derma_005674,mel,histo,45.0,female,upper extremity,vidir_modern
+884,maibi_derma_005675,nv,follow_up,65.0,female,back,vidir_molemax
+885,maibi_derma_005676,bkl,consensus,85.0,male,trunk,vidir_modern
+886,maibi_derma_005677,nv,histo,60.0,female,lower extremity,vienna_dias
+887,maibi_derma_005678,nv,histo,45.0,male,back,vienna_dias
+888,maibi_derma_005679,mel,histo,45.0,female,lower extremity,rosendahl
+889,maibi_derma_005680,nv,follow_up,50.0,female,lower extremity,vidir_molemax
+890,maibi_derma_005681,akiec,histo,60.0,male,upper extremity,rosendahl
+891,maibi_derma_005682,nv,follow_up,50.0,female,trunk,vidir_molemax
+892,maibi_derma_005683,mel,histo,35.0,female,back,vidir_modern
+893,maibi_derma_005684,nv,follow_up,35.0,female,lower extremity,vidir_molemax
+894,maibi_derma_005685,nv,histo,50.0,male,back,vidir_modern
+895,maibi_derma_005686,nv,histo,40.0,female,lower extremity,vidir_modern
+896,maibi_derma_005687,nv,histo,25.0,male,back,rosendahl
+897,maibi_derma_005688,nv,consensus,35.0,male,unknown,vidir_modern
+898,maibi_derma_005689,mel,histo,80.0,male,scalp,vidir_modern
+899,maibi_derma_005690,nv,follow_up,40.0,female,trunk,vidir_molemax
+900,maibi_derma_005691,nv,histo,75.0,female,upper extremity,vidir_modern
+901,maibi_derma_005692,nv,consensus,50.0,male,back,vidir_modern
+902,maibi_derma_005693,nv,follow_up,45.0,male,back,vidir_molemax
+903,maibi_derma_005694,nv,histo,70.0,male,back,vidir_modern
+904,maibi_derma_005695,nv,follow_up,45.0,male,back,vidir_molemax
+905,maibi_derma_005696,nv,histo,50.0,male,chest,rosendahl
+906,maibi_derma_005697,nv,histo,60.0,male,back,rosendahl
+907,maibi_derma_005698,nv,histo,20.0,female,face,vidir_modern
+908,maibi_derma_005699,nv,follow_up,35.0,female,back,vidir_molemax
+909,maibi_derma_005700,nv,follow_up,50.0,female,abdomen,vidir_molemax
+910,maibi_derma_005701,nv,histo,45.0,female,trunk,vidir_modern
+911,maibi_derma_005702,nv,histo,15.0,male,back,vidir_modern
+912,maibi_derma_005703,nv,histo,25.0,female,back,rosendahl
+913,maibi_derma_005704,nv,follow_up,50.0,female,trunk,vidir_molemax
+914,maibi_derma_005705,mel,histo,55.0,male,lower extremity,vidir_modern
+915,maibi_derma_005706,nv,histo,55.0,male,back,rosendahl
+916,maibi_derma_005707,bkl,histo,50.0,male,upper extremity,vidir_modern
+917,maibi_derma_005708,nv,histo,35.0,female,abdomen,vidir_modern
+918,maibi_derma_005709,mel,histo,65.0,female,back,rosendahl
+919,maibi_derma_005710,bkl,consensus,75.0,female,upper extremity,vidir_modern
+920,maibi_derma_005711,nv,consensus,15.0,female,lower extremity,vidir_modern
+921,maibi_derma_005712,nv,histo,45.0,female,upper extremity,vidir_modern
+922,maibi_derma_005713,mel,histo,85.0,female,foot,vidir_modern
+923,maibi_derma_005714,nv,consensus,5.0,male,lower extremity,vidir_modern
+924,maibi_derma_005715,nv,consensus,20.0,female,lower extremity,vidir_modern
+925,maibi_derma_005716,bkl,histo,45.0,female,face,vidir_modern
+926,maibi_derma_005717,nv,histo,35.0,male,back,vidir_modern
+927,maibi_derma_005718,nv,follow_up,60.0,male,abdomen,vidir_molemax
+928,maibi_derma_005719,nv,follow_up,45.0,male,trunk,vidir_molemax
+929,maibi_derma_005720,nv,follow_up,25.0,female,trunk,vidir_molemax
+930,maibi_derma_005721,nv,histo,55.0,male,lower extremity,vienna_dias
+931,maibi_derma_005722,mel,histo,55.0,female,lower extremity,rosendahl
+932,maibi_derma_005723,nv,histo,40.0,male,chest,vidir_modern
+933,maibi_derma_005724,bkl,histo,50.0,male,lower extremity,vidir_modern
+934,maibi_derma_005725,bcc,histo,60.0,female,chest,rosendahl
+935,maibi_derma_005726,nv,follow_up,35.0,female,upper extremity,vidir_molemax
+936,maibi_derma_005727,bcc,histo,65.0,female,abdomen,rosendahl
+937,maibi_derma_005728,nv,follow_up,25.0,female,trunk,vidir_molemax
+938,maibi_derma_005729,nv,histo,65.0,female,back,vidir_modern
+939,maibi_derma_005730,nv,follow_up,50.0,male,trunk,vidir_molemax
+940,maibi_derma_005731,vasc,histo,40.0,male,lower extremity,vienna_dias
+941,maibi_derma_005732,nv,follow_up,50.0,female,lower extremity,vidir_molemax
+942,maibi_derma_005733,mel,histo,70.0,female,upper extremity,rosendahl
+943,maibi_derma_005734,nv,follow_up,40.0,female,lower extremity,vidir_molemax
+944,maibi_derma_005735,bkl,histo,60.0,male,unknown,rosendahl
+945,maibi_derma_005736,mel,histo,65.0,male,face,vidir_modern
+946,maibi_derma_005737,nv,histo,50.0,male,back,rosendahl
+947,maibi_derma_005738,mel,histo,60.0,male,upper extremity,vidir_modern
+948,maibi_derma_005739,nv,follow_up,30.0,male,abdomen,vidir_molemax
+949,maibi_derma_005740,bcc,histo,50.0,male,lower extremity,rosendahl
+950,maibi_derma_005741,nv,histo,35.0,male,chest,vidir_modern
+951,maibi_derma_005742,bcc,histo,50.0,male,trunk,vidir_modern
+952,maibi_derma_005743,nv,histo,65.0,female,back,rosendahl
+953,maibi_derma_005744,akiec,histo,75.0,male,face,rosendahl
+954,maibi_derma_005745,nv,histo,35.0,female,abdomen,vidir_modern
+955,maibi_derma_005746,nv,follow_up,65.0,female,trunk,vidir_molemax
+956,maibi_derma_005747,nv,follow_up,50.0,male,abdomen,vidir_molemax
+957,maibi_derma_005748,nv,histo,45.0,male,back,vidir_modern
+958,maibi_derma_005749,nv,follow_up,65.0,female,trunk,vidir_molemax
+959,maibi_derma_005750,nv,follow_up,55.0,female,trunk,vidir_molemax
+960,maibi_derma_005751,nv,histo,55.0,male,lower extremity,rosendahl
+961,maibi_derma_005752,nv,histo,80.0,male,lower extremity,rosendahl
+962,maibi_derma_005753,nv,histo,45.0,male,abdomen,vienna_dias
+963,maibi_derma_005754,bkl,histo,50.0,male,neck,rosendahl
+964,maibi_derma_005755,nv,consensus,65.0,male,upper extremity,vidir_modern
+965,maibi_derma_005756,akiec,histo,30.0,male,face,rosendahl
+966,maibi_derma_005757,nv,follow_up,50.0,female,trunk,vidir_molemax
+967,maibi_derma_005758,nv,follow_up,55.0,male,lower extremity,vidir_molemax
+968,maibi_derma_005759,bkl,consensus,75.0,male,face,vidir_molemax
+969,maibi_derma_005760,mel,histo,55.0,male,back,vidir_modern
+970,maibi_derma_005761,bkl,histo,80.0,male,face,rosendahl
+971,maibi_derma_005762,nv,histo,30.0,male,chest,vidir_modern
+972,maibi_derma_005763,nv,histo,50.0,female,foot,vidir_modern
+973,maibi_derma_005764,bcc,histo,65.0,female,back,rosendahl
+974,maibi_derma_005765,akiec,histo,65.0,male,face,rosendahl
+975,maibi_derma_005766,mel,histo,55.0,female,lower extremity,rosendahl
+976,maibi_derma_005767,bkl,histo,70.0,female,lower extremity,rosendahl
+977,maibi_derma_005768,nv,follow_up,60.0,female,lower extremity,vidir_molemax
+978,maibi_derma_005769,nv,histo,50.0,female,lower extremity,rosendahl
+979,maibi_derma_005770,nv,histo,30.0,female,back,vidir_modern
+980,maibi_derma_005771,akiec,histo,65.0,female,abdomen,rosendahl
+981,maibi_derma_005772,df,consensus,55.0,female,lower extremity,vidir_molemax
+982,maibi_derma_005773,nv,follow_up,55.0,male,lower extremity,vidir_molemax
+983,maibi_derma_005774,nv,histo,50.0,female,back,rosendahl
+984,maibi_derma_005775,nv,histo,35.0,female,trunk,vidir_modern
+985,maibi_derma_005776,nv,consensus,40.0,female,unknown,vidir_modern
+986,maibi_derma_005777,nv,follow_up,65.0,male,trunk,vidir_molemax
+987,maibi_derma_005778,nv,follow_up,45.0,male,trunk,vidir_molemax
+988,maibi_derma_005779,mel,histo,65.0,male,chest,vidir_modern
+989,maibi_derma_005780,nv,follow_up,75.0,female,trunk,vidir_molemax
+990,maibi_derma_005781,nv,histo,70.0,male,back,rosendahl
+991,maibi_derma_005782,nv,follow_up,40.0,female,abdomen,vidir_molemax
+992,maibi_derma_005783,bkl,histo,60.0,male,upper extremity,rosendahl
+993,maibi_derma_005784,nv,follow_up,45.0,female,back,vidir_molemax
+994,maibi_derma_005785,nv,follow_up,40.0,male,lower extremity,vidir_molemax
+995,maibi_derma_005786,nv,follow_up,55.0,male,upper extremity,vidir_molemax
+996,maibi_derma_005787,nv,follow_up,50.0,male,abdomen,vidir_molemax
+997,maibi_derma_005788,nv,follow_up,40.0,male,lower extremity,vidir_molemax
+998,maibi_derma_005789,nv,histo,50.0,female,lower extremity,vidir_molemax
+999,maibi_derma_005790,bkl,histo,55.0,female,face,rosendahl
+1000,maibi_derma_005791,nv,follow_up,50.0,male,trunk,vidir_molemax
+1001,maibi_derma_005792,mel,histo,60.0,male,back,rosendahl
+1002,maibi_derma_005793,nv,histo,20.0,female,back,vidir_modern
+1003,maibi_derma_005794,nv,histo,35.0,male,upper extremity,vienna_dias
+1004,maibi_derma_005795,nv,follow_up,50.0,female,upper extremity,vidir_molemax
+1005,maibi_derma_005796,nv,histo,40.0,female,back,vidir_modern
+1006,maibi_derma_005797,nv,histo,50.0,female,lower extremity,rosendahl
+1007,maibi_derma_005798,nv,follow_up,75.0,male,trunk,vidir_molemax
+1008,maibi_derma_005799,nv,follow_up,45.0,female,lower extremity,vidir_molemax
+1009,maibi_derma_005800,bkl,histo,60.0,female,lower extremity,rosendahl
+1010,maibi_derma_005801,nv,follow_up,50.0,female,lower extremity,vidir_molemax
+1011,maibi_derma_005802,nv,histo,50.0,male,upper extremity,vidir_modern
+1012,maibi_derma_005803,nv,consensus,40.0,female,lower extremity,vidir_modern
+1013,maibi_derma_005804,nv,follow_up,30.0,female,trunk,vidir_molemax
+1014,maibi_derma_005805,nv,follow_up,55.0,male,lower extremity,vidir_molemax
+1015,maibi_derma_005806,nv,follow_up,35.0,male,lower extremity,vidir_molemax
+1016,maibi_derma_005807,nv,follow_up,45.0,female,foot,vidir_molemax
+1017,maibi_derma_005808,nv,histo,35.0,female,abdomen,vidir_modern
+1018,maibi_derma_005809,nv,consensus,40.0,female,unknown,vidir_modern
+1019,maibi_derma_005810,vasc,consensus,55.0,female,abdomen,vidir_molemax
+1020,maibi_derma_005811,nv,follow_up,45.0,female,lower extremity,vidir_molemax
