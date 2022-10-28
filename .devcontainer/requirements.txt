@@ -2,4 +2,6 @@ notebook
 matplotlib
 pandas
 numpy
-torch
+torch 
+torchvision 
+torchaudio

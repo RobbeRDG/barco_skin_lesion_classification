@@ -12,12 +12,19 @@ class DermaDataset(Dataset):
     LABEL_COLUMN = "dx"
     classes = ['bkl', 'nv', 'df', 'mel', 'vasc', 'bcc', 'akiec', 'other']
     
-    def __init__(self, image_directory: str, meta_data_path:str, transform=None):
+    def __init__(self, image_directory: str, meta_data_path: str, transform=None):
+        # Get the image files
         self.image_directory = image_directory
         all_files = listdir(self.image_directory)
         self.image_files = [f for f in all_files if f[-len(self.IMAGE_EXTENSION):] == self.IMAGE_EXTENSION]
+
+        # Read in the metadata csv
         unindexed_meta_data = read_csv(meta_data_path)
+
+        # Set the "IMAGE_COLUMN" as the index for the metadata
         self.meta_data = unindexed_meta_data.set_index([self.IMAGE_COLUMN])
+
+        # Set the transforms
         self.transform = transform
         
     def __len__(self) -> int:
