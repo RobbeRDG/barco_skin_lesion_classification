@@ -3,14 +3,12 @@ from os.path import join
 import torch
 from torchvision import transforms
 
-# Paths
-BASE_PATH = '/workspaces/barco_skin_lesion_classification'
-CODE_PATH = join(BASE_PATH,"src/")
-SEGMENTATION_DATA_PATH_TRAIN_FEATURES = join(BASE_PATH,"data/segmentation/train_features")
-SEGMENTATION_DATA_PATH_TRAIN_LABELS = join(BASE_PATH,"data/segmentation/train_labels")
-SEGMENTATION_DATA_PATH_TEST_FEATURES = join(BASE_PATH,"data/segmentation/test_features")
-SEGMENTATION_DATA_PATH_TEST_LABELS = join(BASE_PATH,"data/segmentation/test_labels")
-METADATA_PATH = join(BASE_PATH,"data/metadata")
+# Data paths
+SEGMENTATION_DATA_PATH_TRAIN_FEATURES = "data/segmentation/train_features"
+SEGMENTATION_DATA_PATH_TRAIN_LABELS = "data/segmentation/train_labels"
+SEGMENTATION_DATA_PATH_TEST_FEATURES = "data/segmentation/test_features"
+SEGMENTATION_DATA_PATH_TEST_LABELS = "data/segmentation/test_labels"
+METADATA_PATH = "data/metadata"
 
 # Data
 TRAIN_KEY = "train"
