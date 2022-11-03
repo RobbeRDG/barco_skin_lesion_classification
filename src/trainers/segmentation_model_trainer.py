@@ -9,7 +9,7 @@ def train_segmentation_model(
         model,
         optimizer,
         loss_fn,
-        #scaler,
+        scaler,
         dataloader,
     ):
     total_loss = 0.0
@@ -23,23 +23,17 @@ def train_segmentation_model(
         optimizer.zero_grad()
 
         # Runs the forward pass with autocasting.
-        #with torch.autocast(device_type=config.DEVICE.type, dtype=torch.float16):
-        #    outputs = model(inputs)
-        #    loss = loss_fn(outputs, labels)
-
-        outputs = model(inputs)
-        loss = loss_fn(outputs, labels)
+        with torch.autocast(device_type=config.DEVICE.type):
+            outputs = model(inputs)            
+            loss = loss_fn(outputs, labels)
 
         # Update the total loss
         total_loss += loss.item()
 
         # Backprop
-        #scaler.scale(loss).backward()
-        #scaler.step(optimizer)
-        #scaler.update()
-
-        loss.backward()
-        optimizer.step()
+        scaler.scale(loss).backward()
+        scaler.step(optimizer)
+        scaler.update()
 
     # Return the total loss
     return total_loss
