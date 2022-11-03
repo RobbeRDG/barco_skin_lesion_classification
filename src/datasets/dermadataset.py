@@ -1,9 +1,10 @@
-from torch.utils.data import Dataset
-from torchvision.io import read_image
-from torchvision.datasets.folder import default_loader
-from pandas import read_csv
 from os import listdir
 from os.path import join
+
+from pandas import read_csv
+from torch.utils.data import Dataset
+from torchvision.datasets.folder import default_loader
+from torchvision.io import read_image
 
 
 class DermaDataset(Dataset):

@@ -1,0 +1,47 @@
+import torch
+from tqdm import tqdm
+
+from util import config
+
+
+def validate_segmentation_model(
+        model,
+        loss_fn,
+        dataloader,
+        dataset
+    ):
+    total_loss = 0.0
+
+    # No gradients needed during validation
+    with torch.no_grad():
+        # First calculate the validation loss
+        loop = tqdm(dataloader, leave=True)
+        for idx, (input, label) in enumerate(loop):
+            # Send the input and label to device
+            input, label = input.to(config.device), label.to(config.device)
+
+            # Runs the forward pass.
+            output = model(input)
+            loss = loss_fn(output, label)
+
+            # Add the loss to the total
+            total_loss += loss
+
+        # Second, take a sample of the segmentation performance
+        input, label = dataset[5]
+        output = model(input)
+
+        # Rescale the pixel values
+        input = torch.mul(input, 255)
+        output = torch.mul(output, 255)
+        label = torch.mul(label, 255)
+
+        # Make one big image with the tree image arrays
+        image_array = torch.cat([input, output, label])
+
+    # Return both the image and the total loss
+    return total_loss, image_array.numpy()
+
+    
+
+

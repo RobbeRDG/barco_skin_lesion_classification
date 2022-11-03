@@ -1,6 +1,8 @@
-from util.config import *
 import time
 from shutil import copy
+
+from util.config import *
+
 
 def train_model(model, criterion, optimizer, scheduler, num_epochs=25):
     since = time.time()
