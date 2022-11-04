@@ -1,8 +1,10 @@
 import numpy as np
 import torch
+import torch.nn.functional as F
 from tqdm import tqdm
 
 from util import config
+from util.dice_score import dice_loss
 
 
 def train_segmentation_model(
@@ -24,8 +26,8 @@ def train_segmentation_model(
 
         # Runs the forward pass with autocasting.
         with torch.autocast(device_type=config.DEVICE.type):
-            outputs = model(inputs)            
-            loss = loss_fn(outputs, labels)
+            outputs = model(inputs)           
+            loss = loss_fn(outputs, labels) + dice_loss(torch.sigmoid(outputs).float(), labels.float())
 
         # Update the total loss
         total_loss += loss.item()

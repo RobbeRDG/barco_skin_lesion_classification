@@ -2,6 +2,7 @@ import torch
 from tqdm import tqdm
 
 from util import config
+from util.dice_score import dice_loss
 
 
 def validate_segmentation_model(
@@ -22,7 +23,7 @@ def validate_segmentation_model(
 
             # Runs the forward pass.
             output = model(input)
-            loss = loss_fn(output, label)
+            loss = loss_fn(output, label) + dice_loss(torch.sigmoid(output).float(), label.float())
 
             # Add the loss to the total
             total_loss += loss
@@ -36,6 +37,7 @@ def validate_segmentation_model(
         input, label = input.to(config.DEVICE), label.to(config.DEVICE)
 
         output = model(input)
+        output = torch.sigmoid(output)
 
         # Rescale the pixel values
         input = torch.mul(input[0][0], 255)
