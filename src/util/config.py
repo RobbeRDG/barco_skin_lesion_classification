@@ -20,8 +20,8 @@ KEYS = [TRAIN_KEY, VAL_KEY]
 DATA_FOLDER_NAMES = {TRAIN_KEY: "legacy", VAL_KEY: "target"}
 
 # Model params for segmentation model
-SEGMENTATION_EPOCHS = 200
-SEGMENTATION_BATCH_SIZE = 4
+SEGMENTATION_EPOCHS = 100
+SEGMENTATION_BATCH_SIZE = 16
 SEGMENTATION_NUM_WORKERS = 2
 SEGMENTATION_LR = 0.0001
 
@@ -30,11 +30,11 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Data augmentations segmentation
 SEGMENTATION_TRAIN_TRANSFORMATIONS_BOTH = transforms.Compose([
-    transforms.Resize((80, 80)),
+    transforms.Resize((187, 250)),
     transforms.ToTensor()
 ])
 SEGMENTATION_TEST_TRANSFORMATIONS_BOTH = transforms.Compose([
-    transforms.Resize((80, 80)),
+    transforms.Resize((187, 250)),
     transforms.ToTensor()
 ])
 
