@@ -1,9 +1,0 @@
-notebook
-matplotlib
-pandas
-numpy
-torch 
-torchvision 
-torchaudio
-Pillow
-tqdm
