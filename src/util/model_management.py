@@ -11,10 +11,18 @@ def save_model(model, checkpoint_path, save_as_artifact):
     # Save the best model
     torch.save(best_model_state, checkpoint_path)
 
-    # Also save the model as an artifact
+    # Also save the final model as an artifact
     if save_as_artifact:
-        artifact = wandb.Artifact('model', type='model')
+        artifact = wandb.Artifact('final_model', type='model')
         artifact.add_file(checkpoint_path)
         wandb.log_artifact(artifact)
 
     return best_model_state
+
+def start_from_artifact():
+    # Download the artifact
+    artifact = wandb.use_artifact(config.SEGMENTATION_START_ARTIFACT, type='model')
+    artifact_dir = artifact.download()
+
+    join(artifact_dir, 'f{config.SEGMENTATION_START_ARTIFACT}.pth')
+

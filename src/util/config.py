@@ -1,7 +1,17 @@
 from os.path import join
+import sys
 
 import torch
 from torchvision import transforms
+
+# Set torch to use GPU if available
+DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+# Find out if the notebook is run on google colab or in a local docker container
+IN_COLAB = 'google.colab' in sys.modules
+
+# Code path
+CODE_PATH = "src/"
 
 # Data paths
 SEGMENTATION_DATA_PATH_TRAIN_FEATURES = "data/segmentation/train_features"
@@ -13,43 +23,25 @@ METADATA_PATH = "data/metadata"
 # Checkpoint paths
 SEGMENTATION_MODEL_CHECKPOINT_PATH = 'checkpoints/'
 
-# Data
-TRAIN_KEY = "train"
-VAL_KEY = "val"
-KEYS = [TRAIN_KEY, VAL_KEY]
-DATA_FOLDER_NAMES = {TRAIN_KEY: "legacy", VAL_KEY: "target"}
-
 # Model params for segmentation model
-SEGMENTATION_EPOCHS = 50
-SEGMENTATION_BATCH_SIZE = 16
+SEGMENTATION_EPOCHS = 30
+SEGMENTATION_BATCH_SIZE = 8
 SEGMENTATION_NUM_WORKERS = 2
 SEGMENTATION_LR = 0.0001
-
-# Set torch to use GPU if available
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+SEGMENTATION_IMAGE_HEIGHT = 384
+SEGMENTATION_IMAGE_WIDTH = 512
+SEGMENTATION_START_FROM_ARTIFACT = True
+SEGMENTATION_START_ARTIFACT = "dermapool/segmentation/final_model:v1"
+SEGMENTATION_START_ARTIFACT_MODEL = "chechpoint_11_05_2022_14_19_24.pth"
 
 # Data augmentations segmentation
 SEGMENTATION_TRAIN_TRANSFORMATIONS_BOTH = transforms.Compose([
-    transforms.Resize((187, 250)),
-    transforms.ToTensor()
+    transforms.Resize((SEGMENTATION_IMAGE_HEIGHT, SEGMENTATION_IMAGE_WIDTH)),
+    transforms.ToTensor(),
+    #transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
 ])
 SEGMENTATION_TEST_TRANSFORMATIONS_BOTH = transforms.Compose([
-    transforms.Resize((187, 250)),
-    transforms.ToTensor()
+    transforms.Resize((SEGMENTATION_IMAGE_HEIGHT, SEGMENTATION_IMAGE_WIDTH)),
+    transforms.ToTensor(),
+    #transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
 ])
-
-# Data augmentation and normalization for training
-# Just normalization for validation
-data_transforms = {
-    TRAIN_KEY: transforms.Compose([
-        transforms.RandomResizedCrop((63, 255)),
-        transforms.ToTensor(),
-        #transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
-    ]),
-    VAL_KEY: transforms.Compose([
-        transforms.Resize(128),
-        transforms.CenterCrop(112),
-        transforms.ToTensor(),
-        #transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
-    ]),
-}
