@@ -7,12 +7,6 @@ from torchvision import transforms
 # Set torch to use GPU if available
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# Find out if the notebook is run on google colab or in a local docker container
-IN_COLAB = 'google.colab' in sys.modules
-
-# Code path
-CODE_PATH = "src/"
-
 # Data paths
 SEGMENTATION_DATA_PATH_TRAIN_FEATURES = "data/segmentation/train_features"
 SEGMENTATION_DATA_PATH_TRAIN_LABELS = "data/segmentation/train_labels"
@@ -28,8 +22,8 @@ SEGMENTATION_EPOCHS = 30
 SEGMENTATION_BATCH_SIZE = 8
 SEGMENTATION_NUM_WORKERS = 2
 SEGMENTATION_LR = 0.0001
-SEGMENTATION_IMAGE_HEIGHT = 384
-SEGMENTATION_IMAGE_WIDTH = 512
+SEGMENTATION_IMAGE_HEIGHT = 225
+SEGMENTATION_IMAGE_WIDTH = 300
 SEGMENTATION_START_FROM_ARTIFACT = True
 SEGMENTATION_START_ARTIFACT = "dermapool/segmentation/final_model:v1"
 SEGMENTATION_START_ARTIFACT_MODEL = "chechpoint_11_05_2022_14_19_24.pth"
