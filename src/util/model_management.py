@@ -22,12 +22,8 @@ def save_model(model, checkpoint_path, save_as_artifact):
 def get_artifact_model_weights():
     # Download the artifact
     artifact = wandb.use_artifact(config.SEGMENTATION_START_ARTIFACT, type='model')
-    artifact_dir = artifact.download()
 
-    # Get the path of the model weights
-    path = join(artifact_dir, 'f{config.SEGMENTATION_START_ARTIFACT}.pth')
+    model_weights = artifact.get_path(config.SEGMENTATION_START_ARTIFACT_MODEL)
 
-    model_weights = artifact.get_path(path)
-
-    return model_weights
+    return model_weights.download()
 

@@ -12,7 +12,8 @@ SEGMENTATION_DATA_PATH_TRAIN_FEATURES = "data/segmentation/train_features"
 SEGMENTATION_DATA_PATH_TRAIN_LABELS = "data/segmentation/train_labels"
 SEGMENTATION_DATA_PATH_TEST_FEATURES = "data/segmentation/test_features"
 SEGMENTATION_DATA_PATH_TEST_LABELS = "data/segmentation/test_labels"
-CLASSIFICATION_DATA_PATH_TRAIN_FEATURES = "data/classification/train"
+CLASSIFICATION_DATA_PATH_TRAIN_SEGMENTED_FEATURES = "data/classification/train_segmented"
+CLASSIFICATION_DATA_PATH_TRAIN_UNSEGMENTED_FEATURES = "data/classification/train_unsegmented"
 METADATA_PATH = "data/metadata"
 
 # Checkpoint paths
@@ -44,3 +45,8 @@ SEGMENTATION_TEST_TRANSFORMATIONS_BOTH = transforms.Compose([
 SEGMENTATION_TEST_TRANSFORMATIONS_FEATURES = transforms.Compose([
     transforms.Normalize([0.5, 0.5, 0.5], [0.5, 0.5, 0.5]),
 ])
+SEGMENTATION_RUN_TRANSFORMATIONS = transforms.Compose([
+    transforms.Resize((SEGMENTATION_IMAGE_HEIGHT, SEGMENTATION_IMAGE_WIDTH)),
+    transforms.ToTensor()
+])
+

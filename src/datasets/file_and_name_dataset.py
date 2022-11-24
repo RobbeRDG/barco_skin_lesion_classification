@@ -11,7 +11,7 @@ from util import config
 
 
 class FileAndNameDataset(Dataset):
-    def __init__(self, feature_images_base_path, transformations = None,):
+    def __init__(self, feature_images_base_path, transformations = None):
         self.feature_images_base_path = feature_images_base_path
         self.transformations = transformations
         
@@ -29,9 +29,15 @@ class FileAndNameDataset(Dataset):
         feature_image = Image.open(feature_image_path)
 
         # Apply the image transformations
-        #feature_image = self.transformations(feature_image)
+        transformed_feature_image = self.transformations(feature_image)
 
-        return feature_image, image_id
+        # Transform feature image to tensor
+        tensor_transformer = transforms.Compose([
+            transforms.ToTensor()
+        ])
+        feature_image = tensor_transformer(feature_image)
+
+        return feature_image, transformed_feature_image, image_id
 
     def __len__(self):
         return len(os.listdir(self.feature_images_base_path))
