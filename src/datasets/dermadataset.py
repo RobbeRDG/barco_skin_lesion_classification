@@ -13,7 +13,7 @@ class DermaDataset(Dataset):
     LABEL_COLUMN = "dx"
     classes = ['bkl', 'nv', 'df', 'mel', 'vasc', 'bcc', 'akiec', 'other']
     
-    def __init__(self, image_directory: str, meta_data_path: str, transform=None):
+    def __init__(self, image_directory: str, meta_data_path: str, transforms_both=None, transforms_features=None):
         # Get the image files
         self.image_directory = image_directory
         all_files = listdir(self.image_directory)
@@ -26,7 +26,8 @@ class DermaDataset(Dataset):
         self.meta_data = unindexed_meta_data.set_index([self.IMAGE_COLUMN])
 
         # Set the transforms
-        self.transform = transform
+        self.transform_both = transforms_both
+        self.transforms_features = transforms_features
         
     def __len__(self) -> int:
         return len(self.image_files)

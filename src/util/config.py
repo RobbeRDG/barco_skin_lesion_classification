@@ -12,19 +12,20 @@ SEGMENTATION_DATA_PATH_TRAIN_FEATURES = "data/segmentation/train_features"
 SEGMENTATION_DATA_PATH_TRAIN_LABELS = "data/segmentation/train_labels"
 SEGMENTATION_DATA_PATH_TEST_FEATURES = "data/segmentation/test_features"
 SEGMENTATION_DATA_PATH_TEST_LABELS = "data/segmentation/test_labels"
+CLASSIFICATION_DATA_PATH_TRAIN_FEATURES = "data/classification/train"
 METADATA_PATH = "data/metadata"
 
 # Checkpoint paths
 SEGMENTATION_MODEL_CHECKPOINT_PATH = 'checkpoints/'
 
 # Model params for segmentation model
-SEGMENTATION_EPOCHS = 30
-SEGMENTATION_BATCH_SIZE = 8
+SEGMENTATION_EPOCHS = 50
+SEGMENTATION_BATCH_SIZE = 16
 SEGMENTATION_NUM_WORKERS = 2
 SEGMENTATION_LR = 0.0001
 SEGMENTATION_IMAGE_HEIGHT = 225
 SEGMENTATION_IMAGE_WIDTH = 300
-SEGMENTATION_START_FROM_ARTIFACT = True
+SEGMENTATION_START_FROM_ARTIFACT = False
 SEGMENTATION_START_ARTIFACT = "dermapool/segmentation/final_model:v1"
 SEGMENTATION_START_ARTIFACT_MODEL = "chechpoint_11_05_2022_14_19_24.pth"
 
@@ -32,10 +33,14 @@ SEGMENTATION_START_ARTIFACT_MODEL = "chechpoint_11_05_2022_14_19_24.pth"
 SEGMENTATION_TRAIN_TRANSFORMATIONS_BOTH = transforms.Compose([
     transforms.Resize((SEGMENTATION_IMAGE_HEIGHT, SEGMENTATION_IMAGE_WIDTH)),
     transforms.ToTensor(),
-    #transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
+])
+SEGMENTATION_TRAIN_TRANSFORMATIONS_FEATURES = transforms.Compose([
+    transforms.Normalize([0.5, 0.5, 0.5], [0.5, 0.5, 0.5]),
 ])
 SEGMENTATION_TEST_TRANSFORMATIONS_BOTH = transforms.Compose([
     transforms.Resize((SEGMENTATION_IMAGE_HEIGHT, SEGMENTATION_IMAGE_WIDTH)),
     transforms.ToTensor(),
-    #transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
+])
+SEGMENTATION_TEST_TRANSFORMATIONS_FEATURES = transforms.Compose([
+    transforms.Normalize([0.5, 0.5, 0.5], [0.5, 0.5, 0.5]),
 ])

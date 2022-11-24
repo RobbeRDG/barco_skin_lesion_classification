@@ -11,10 +11,11 @@ from util import config
 
 
 class SegmentationDataset(Dataset):
-    def __init__(self, feature_images_base_path, label_images_base_path, transformations = None):
+    def __init__(self, feature_images_base_path, label_images_base_path, transformations_both = None, transformations_features=None):
         self.feature_images_base_path = feature_images_base_path
         self.label_images_base_path = label_images_base_path
-        self.transformations = transformations
+        self.transformations_both = transformations_both
+        self.transformations_features = transformations_features
         
         # Extract the image id's
         feature_image_names = os.listdir(self.feature_images_base_path)
@@ -32,14 +33,12 @@ class SegmentationDataset(Dataset):
         feature_image = Image.open(feature_image_path)
         label_image = Image.open(label_image_path)
 
-        # First convert both images to tensors
-        #convert_tensor = transforms.ToTensor()
-        #feature_image = convert_tensor(feature_image)
-        #label_image = convert_tensor(label_image)
+        # Apply the image transformations
+        feature_image = self.transformations_both(feature_image)
+        label_image = self.transformations_both(label_image)
 
-        # Apply the other image transformations
-        feature_image = self.transformations(feature_image)
-        label_image = self.transformations(label_image)
+        # Apply the additional transformations to the features
+        feature_image = self.transformations_features(feature_image)
 
         return feature_image, label_image
 
