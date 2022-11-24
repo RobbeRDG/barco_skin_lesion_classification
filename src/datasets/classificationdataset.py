@@ -7,13 +7,13 @@ from torchvision.datasets.folder import default_loader
 from torchvision.io import read_image
 
 
-class DermaDataset(Dataset):
+class ClassificationDataset(Dataset):
     IMAGE_EXTENSION = ".jpg"
     IMAGE_COLUMN = "maibi_id"
     LABEL_COLUMN = "dx"
     classes = ['bkl', 'nv', 'df', 'mel', 'vasc', 'bcc', 'akiec', 'other']
     
-    def __init__(self, image_directory: str, meta_data_path: str, transforms_both=None, transforms_features=None):
+    def __init__(self, image_directory: str, meta_data_path: str, transforms=None):
         # Get the image files
         self.image_directory = image_directory
         all_files = listdir(self.image_directory)
@@ -26,8 +26,7 @@ class DermaDataset(Dataset):
         self.meta_data = unindexed_meta_data.set_index([self.IMAGE_COLUMN])
 
         # Set the transforms
-        self.transform_both = transforms_both
-        self.transforms_features = transforms_features
+        self.transforms = transforms
         
     def __len__(self) -> int:
         return len(self.image_files)
@@ -37,8 +36,8 @@ class DermaDataset(Dataset):
         label = self.get_integer_label_for_image_name(image_file_name)
         image_path = join(self.image_directory, image_file_name)
         image = default_loader(image_path)
-        if self.transform:
-            image = self.transform(image)
+        if self.transforms:
+            image = self.transforms(image)
         return image, label
         
     def get_integer_label_for_image_name(self, image_name:str) -> int:
