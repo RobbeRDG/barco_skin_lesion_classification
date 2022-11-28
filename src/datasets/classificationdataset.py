@@ -42,6 +42,7 @@ class ClassificationDataset(Dataset):
         
     def get_integer_label_for_image_name(self, image_name:str) -> int:
         text_label = self.get_text_label_for_image_name(image_name)
+        
         if text_label in self.classes:
             return self.classes.index(text_label)
         else:

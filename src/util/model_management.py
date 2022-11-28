@@ -4,7 +4,7 @@ import wandb
 import datetime
 from util import config
 
-def save_model(model, checkpoint_path, save_as_artifact):
+def save_model(model, checkpoint_path, save_as_artifact, artifact_name):
     # Set the best model
     best_model_state = model.state_dict()
 
@@ -13,17 +13,33 @@ def save_model(model, checkpoint_path, save_as_artifact):
 
     # Also save the final model as an artifact
     if save_as_artifact:
-        artifact = wandb.Artifact('final_model', type='model')
+        artifact = wandb.Artifact(artifact_name, type='model')
         artifact.add_file(checkpoint_path)
         wandb.log_artifact(artifact)
 
+
     return best_model_state
 
-def get_artifact_model_weights():
+def get_artifact_model_weights(artifact_path, checkpoint_file):
     # Download the artifact
-    artifact = wandb.use_artifact(config.SEGMENTATION_START_ARTIFACT, type='model')
+    artifact = wandb.use_artifact(artifact_path, type='model')
 
-    model_weights = artifact.get_path(config.SEGMENTATION_START_ARTIFACT_MODEL)
+    model_weights = artifact.get_path(checkpoint_file)
 
     return model_weights.download()
 
+def get_artifact_model_weights_class():
+    # Download the artifact
+    artifact = wandb.use_artifact(config.CLASSIFICATION_START_ARTIFACT, type='model')
+
+    model_weights = artifact.get_path(config.CLASSIFICATION_START_ARTIFACT_MODEL)
+
+    return model_weights.download()
+    
+def get_artifact_model_weights_class_seg():
+    # Download the artifact
+    artifact = wandb.use_artifact(config.CLASSIFICATION_START_ARTIFACT_SEG, type='model')
+
+    model_weights = artifact.get_path(config.CLASSIFICATION_START_ARTIFACT_MODEL_SEG)
+
+    return model_weights.download()
