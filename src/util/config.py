@@ -18,11 +18,11 @@ CLASSIFICATION_DATA_PATH_TRAIN_FEATURES = "data/classification/train"
 CLASSIFICATION_DATA_PATH_TRAIN_SEGMENTED_FEATURES = "data/classification/train_segmented"
 CLASSIFICATION_DATA_PATH_TRAIN_UNSEGMENTED_FEATURES = "data/classification/train_unsegmented"
 CLASSIFICATION_DATA_PATH_TEST_FEATURES = "data/classification/test"
-CLASSIFICATION_DATA_PATH_VAL_FEATURES = "data/classification/target"
 CLASSIFICATED_DATA_PATH_TRAIN_CLASSIFIED = "data/classification/results" 
+
 METADATA_TRAIN_PATH = "data/classification/metadata/metadata_train.csv"
 METADATA_TEST_PATH = "data/classification/metadata/metadata_test.csv"
-METADATA_VAL_PATH = "data/classification/metadata/metadata_target.csv"
+METADATA_TRAIN_FILTERED_PATH = "data/classification/metadata/metadata_train_filtered.csv"
 
 # Checkpoint paths
 SEGMENTATION_MODEL_CHECKPOINT_PATH = 'checkpoints/segmentation'
@@ -40,13 +40,15 @@ SEGMENTATION_ARTIFACT = "dermapool/segmentation/final_model:v1"
 SEGMENTATION_ARTIFACT_CHECKPOINT = "chechpoint_11_05_2022_14_19_24.pth"
 
 # Model params for classification model
-CLASSIFICATION_EPOCHS = 5
-CLASSIFICATION_BATCH_SIZE = 16
-CLASSIFICATION_LR = 0.0001
+CLASSIFICATION_EPOCHS = 30
+CLASSIFICATION_BATCH_SIZE = 32
+CLASSIFICATION_LR = 0.00001
 CLASSIFICATION_IMAGE_HEIGHT = 225
 CLASSIFICATION_IMAGE_WIDTH = 300
-UNSEGMENTED_CLASSIFICATION_ARTIFACT = "dermapool/classification/final_classification_model_unsegmented:v1"
-UNSEGMENTED_CLASSIFICATION_ARTIFACT_CHECKPOINT = "chechpoint_11_28_2022_19_28_15.pth"
+UNSEGMENTED_CLASSIFICATION_START_FROM_ARTIFACT = True
+UNSEGMENTED_CLASSIFICATION_ARTIFACT = "dermapool/classification/final_classification_model_unsegmented:v3"
+UNSEGMENTED_CLASSIFICATION_ARTIFACT_CHECKPOINT = "chechpoint_11_29_2022_15_37_06.pth"
+SEGMENTED_CLASSIFICATION_START_FROM_ARTIFACT = False
 SEGMENTED_CLASSIFICATION_ARTIFACT = "dermapool/classification/final_classification_model_segmented:v1"
 SEGMENTED_CLASSIFICATION_ARTIFACT_CHECKPOINT = "chechpoint_11_28_2022_19_05_59.pth"
 

@@ -3,6 +3,7 @@ from tqdm import tqdm
 
 from util import config
 from util.dice_score import dice_loss
+from sklearn.metrics import f1_score
 
 
 def validate_classification_model(
@@ -10,7 +11,10 @@ def validate_classification_model(
         loss_fn,
         dataloader,
     ):
+    # Set the evaluation data structures
     total_loss = 0.0
+    pred_classes = []
+    true_classes = []
 
     # No gradients needed during validation
     with torch.no_grad():
@@ -27,7 +31,20 @@ def validate_classification_model(
             # Add the loss to the total
             total_loss += loss
 
-    return total_loss
+            # Get the predicted class
+            pred_class = torch.argmax(output[0])
+
+            # update the evaluation data
+            pred_classes.append(pred_class.item())
+            true_classes.append(label.item())  
+
+    # Get the average f1 score
+    f1 = f1_score(true_classes, pred_classes, average=None)
+
+    # Get the average f1 score
+    f1_avg = f1_score(true_classes, pred_classes, average='macro')
+
+    return total_loss, f1, f1_avg
 
     
 
